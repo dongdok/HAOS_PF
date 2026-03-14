@@ -1,0 +1,578 @@
+{
+  "device_id": "eb1bbd99a961d6c8b2ye9x",
+  "attempts": [
+    {
+      "protocol": 3.5,
+      "init_status": 200,
+      "setup_status": 200,
+      "local_status": 200,
+      "local_type": "form",
+      "local_step": "local",
+      "result": {
+        "stage": "local",
+        "detail": {
+          "type": "form",
+          "flow_id": "01KK99F2DEHYAX3TRS51T63JWP",
+          "handler": "tuya_local",
+          "data_schema": [
+            {
+              "type": "string",
+              "name": "device_id",
+              "required": true,
+              "default": "eb1bbd99a961d6c8b2ye9x"
+            },
+            {
+              "type": "string",
+              "name": "host",
+              "required": true,
+              "default": "192.168.10.126"
+            },
+            {
+              "type": "string",
+              "name": "local_key",
+              "required": true,
+              "default": ")K'o*Y<^lCB.JGJ0"
+            },
+            {
+              "type": "select",
+              "options": [
+                [
+                  "auto",
+                  "auto"
+                ],
+                [
+                  3.3,
+                  3.3
+                ],
+                [
+                  3.1,
+                  3.1
+                ],
+                [
+                  3.2,
+                  3.2
+                ],
+                [
+                  3.4,
+                  3.4
+                ],
+                [
+                  3.5,
+                  3.5
+                ],
+                [
+                  3.22,
+                  3.22
+                ]
+              ],
+              "name": "protocol_version",
+              "required": true,
+              "default": 3.5
+            },
+            {
+              "type": "boolean",
+              "name": "poll_only",
+              "required": true,
+              "default": false
+            },
+            {
+              "type": "string",
+              "name": "device_cid",
+              "required": false,
+              "optional": true,
+              "default": ""
+            }
+          ],
+          "errors": {
+            "base": "connection"
+          },
+          "description_placeholders": {
+            "device_details_url": "https://github.com/make-all/tuya-local/blob/main/DEVICE_DETAILS.md#finding-your-device-id-and-local-key"
+          },
+          "last_step": null,
+          "preview": null,
+          "step_id": "local"
+        }
+      }
+    },
+    {
+      "protocol": 3.4,
+      "init_status": 200,
+      "setup_status": 200,
+      "local_status": 200,
+      "local_type": "form",
+      "local_step": "local",
+      "result": {
+        "stage": "local",
+        "detail": {
+          "type": "form",
+          "flow_id": "01KK99FBG7DQSBA6JCZFF20RRM",
+          "handler": "tuya_local",
+          "data_schema": [
+            {
+              "type": "string",
+              "name": "device_id",
+              "required": true,
+              "default": "eb1bbd99a961d6c8b2ye9x"
+            },
+            {
+              "type": "string",
+              "name": "host",
+              "required": true,
+              "default": "192.168.10.126"
+            },
+            {
+              "type": "string",
+              "name": "local_key",
+              "required": true,
+              "default": ")K'o*Y<^lCB.JGJ0"
+            },
+            {
+              "type": "select",
+              "options": [
+                [
+                  "auto",
+                  "auto"
+                ],
+                [
+                  3.3,
+                  3.3
+                ],
+                [
+                  3.1,
+                  3.1
+                ],
+                [
+                  3.2,
+                  3.2
+                ],
+                [
+                  3.4,
+                  3.4
+                ],
+                [
+                  3.5,
+                  3.5
+                ],
+                [
+                  3.22,
+                  3.22
+                ]
+              ],
+              "name": "protocol_version",
+              "required": true,
+              "default": 3.4
+            },
+            {
+              "type": "boolean",
+              "name": "poll_only",
+              "required": true,
+              "default": false
+            },
+            {
+              "type": "string",
+              "name": "device_cid",
+              "required": false,
+              "optional": true,
+              "default": ""
+            }
+          ],
+          "errors": {
+            "base": "connection"
+          },
+          "description_placeholders": {
+            "device_details_url": "https://github.com/make-all/tuya-local/blob/main/DEVICE_DETAILS.md#finding-your-device-id-and-local-key"
+          },
+          "last_step": null,
+          "preview": null,
+          "step_id": "local"
+        }
+      }
+    },
+    {
+      "protocol": 3.3,
+      "init_status": 200,
+      "setup_status": 200,
+      "local_status": 200,
+      "local_type": "form",
+      "local_step": "local",
+      "result": {
+        "stage": "local",
+        "detail": {
+          "type": "form",
+          "flow_id": "01KK99FMP0VJYP9Z758YZHJ8MM",
+          "handler": "tuya_local",
+          "data_schema": [
+            {
+              "type": "string",
+              "name": "device_id",
+              "required": true,
+              "default": "eb1bbd99a961d6c8b2ye9x"
+            },
+            {
+              "type": "string",
+              "name": "host",
+              "required": true,
+              "default": "192.168.10.126"
+            },
+            {
+              "type": "string",
+              "name": "local_key",
+              "required": true,
+              "default": ")K'o*Y<^lCB.JGJ0"
+            },
+            {
+              "type": "select",
+              "options": [
+                [
+                  "auto",
+                  "auto"
+                ],
+                [
+                  3.3,
+                  3.3
+                ],
+                [
+                  3.1,
+                  3.1
+                ],
+                [
+                  3.2,
+                  3.2
+                ],
+                [
+                  3.4,
+                  3.4
+                ],
+                [
+                  3.5,
+                  3.5
+                ],
+                [
+                  3.22,
+                  3.22
+                ]
+              ],
+              "name": "protocol_version",
+              "required": true,
+              "default": 3.3
+            },
+            {
+              "type": "boolean",
+              "name": "poll_only",
+              "required": true,
+              "default": false
+            },
+            {
+              "type": "string",
+              "name": "device_cid",
+              "required": false,
+              "optional": true,
+              "default": ""
+            }
+          ],
+          "errors": {
+            "base": "connection"
+          },
+          "description_placeholders": {
+            "device_details_url": "https://github.com/make-all/tuya-local/blob/main/DEVICE_DETAILS.md#finding-your-device-id-and-local-key"
+          },
+          "last_step": null,
+          "preview": null,
+          "step_id": "local"
+        }
+      }
+    },
+    {
+      "protocol": 3.2,
+      "init_status": 200,
+      "setup_status": 200,
+      "local_status": 200,
+      "local_type": "form",
+      "local_step": "local",
+      "result": {
+        "stage": "local",
+        "detail": {
+          "type": "form",
+          "flow_id": "01KK99FXQSCVG3SJYM7DW7Z2KK",
+          "handler": "tuya_local",
+          "data_schema": [
+            {
+              "type": "string",
+              "name": "device_id",
+              "required": true,
+              "default": "eb1bbd99a961d6c8b2ye9x"
+            },
+            {
+              "type": "string",
+              "name": "host",
+              "required": true,
+              "default": "192.168.10.126"
+            },
+            {
+              "type": "string",
+              "name": "local_key",
+              "required": true,
+              "default": ")K'o*Y<^lCB.JGJ0"
+            },
+            {
+              "type": "select",
+              "options": [
+                [
+                  "auto",
+                  "auto"
+                ],
+                [
+                  3.3,
+                  3.3
+                ],
+                [
+                  3.1,
+                  3.1
+                ],
+                [
+                  3.2,
+                  3.2
+                ],
+                [
+                  3.4,
+                  3.4
+                ],
+                [
+                  3.5,
+                  3.5
+                ],
+                [
+                  3.22,
+                  3.22
+                ]
+              ],
+              "name": "protocol_version",
+              "required": true,
+              "default": 3.2
+            },
+            {
+              "type": "boolean",
+              "name": "poll_only",
+              "required": true,
+              "default": false
+            },
+            {
+              "type": "string",
+              "name": "device_cid",
+              "required": false,
+              "optional": true,
+              "default": ""
+            }
+          ],
+          "errors": {
+            "base": "connection"
+          },
+          "description_placeholders": {
+            "device_details_url": "https://github.com/make-all/tuya-local/blob/main/DEVICE_DETAILS.md#finding-your-device-id-and-local-key"
+          },
+          "last_step": null,
+          "preview": null,
+          "step_id": "local"
+        }
+      }
+    },
+    {
+      "protocol": 3.1,
+      "init_status": 200,
+      "setup_status": 200,
+      "local_status": 200,
+      "local_type": "form",
+      "local_step": "local",
+      "result": {
+        "stage": "local",
+        "detail": {
+          "type": "form",
+          "flow_id": "01KK99HPV3RXPXGWC2HAD45X9S",
+          "handler": "tuya_local",
+          "data_schema": [
+            {
+              "type": "string",
+              "name": "device_id",
+              "required": true,
+              "default": "eb1bbd99a961d6c8b2ye9x"
+            },
+            {
+              "type": "string",
+              "name": "host",
+              "required": true,
+              "default": "192.168.10.126"
+            },
+            {
+              "type": "string",
+              "name": "local_key",
+              "required": true,
+              "default": ")K'o*Y<^lCB.JGJ0"
+            },
+            {
+              "type": "select",
+              "options": [
+                [
+                  "auto",
+                  "auto"
+                ],
+                [
+                  3.3,
+                  3.3
+                ],
+                [
+                  3.1,
+                  3.1
+                ],
+                [
+                  3.2,
+                  3.2
+                ],
+                [
+                  3.4,
+                  3.4
+                ],
+                [
+                  3.5,
+                  3.5
+                ],
+                [
+                  3.22,
+                  3.22
+                ]
+              ],
+              "name": "protocol_version",
+              "required": true,
+              "default": 3.1
+            },
+            {
+              "type": "boolean",
+              "name": "poll_only",
+              "required": true,
+              "default": false
+            },
+            {
+              "type": "string",
+              "name": "device_cid",
+              "required": false,
+              "optional": true,
+              "default": ""
+            }
+          ],
+          "errors": {
+            "base": "connection"
+          },
+          "description_placeholders": {
+            "device_details_url": "https://github.com/make-all/tuya-local/blob/main/DEVICE_DETAILS.md#finding-your-device-id-and-local-key"
+          },
+          "last_step": null,
+          "preview": null,
+          "step_id": "local"
+        }
+      }
+    },
+    {
+      "protocol": "auto",
+      "init_status": 200,
+      "setup_status": 200,
+      "local_status": 200,
+      "local_type": "form",
+      "local_step": "local",
+      "result": {
+        "stage": "local",
+        "detail": {
+          "type": "form",
+          "flow_id": "01KK99J00AASG044VMFHBYSQ7A",
+          "handler": "tuya_local",
+          "data_schema": [
+            {
+              "type": "string",
+              "name": "device_id",
+              "required": true,
+              "default": "eb1bbd99a961d6c8b2ye9x"
+            },
+            {
+              "type": "string",
+              "name": "host",
+              "required": true,
+              "default": "192.168.10.126"
+            },
+            {
+              "type": "string",
+              "name": "local_key",
+              "required": true,
+              "default": ")K'o*Y<^lCB.JGJ0"
+            },
+            {
+              "type": "select",
+              "options": [
+                [
+                  "auto",
+                  "auto"
+                ],
+                [
+                  3.3,
+                  3.3
+                ],
+                [
+                  3.1,
+                  3.1
+                ],
+                [
+                  3.2,
+                  3.2
+                ],
+                [
+                  3.4,
+                  3.4
+                ],
+                [
+                  3.5,
+                  3.5
+                ],
+                [
+                  3.22,
+                  3.22
+                ]
+              ],
+              "name": "protocol_version",
+              "required": true,
+              "default": "auto"
+            },
+            {
+              "type": "boolean",
+              "name": "poll_only",
+              "required": true,
+              "default": false
+            },
+            {
+              "type": "string",
+              "name": "device_cid",
+              "required": false,
+              "optional": true,
+              "default": ""
+            }
+          ],
+          "errors": {
+            "base": "connection"
+          },
+          "description_placeholders": {
+            "device_details_url": "https://github.com/make-all/tuya-local/blob/main/DEVICE_DETAILS.md#finding-your-device-id-and-local-key"
+          },
+          "last_step": null,
+          "preview": null,
+          "step_id": "local"
+        }
+      }
+    }
+  ],
+  "final": "failed",
+  "tuya_local_entries": [
+    {
+      "entry_id": "01KK7BK71CQ4VBXD5AZTZ0SAF7",
+      "domain": "tuya_local",
+      "title": "거실 스탠드 조명 로컬",
+      "state": "loaded"
+    }
+  ]
+}

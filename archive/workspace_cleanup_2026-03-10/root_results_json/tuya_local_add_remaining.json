@@ -1,0 +1,21 @@
+[
+  {
+    "name": "안방 전기장판 플러그 로컬",
+    "device_id": "eb2718100f510651a8w7hp",
+    "ok": true,
+    "entry_id": "01KK0Z0HT2CTV6SDPSACZ479YD"
+  },
+  {
+    "name": "거실 라인 조명 전원 스위치 로컬",
+    "device_id": "ebc941b918f2c7f446wr3i",
+    "ok": false,
+    "stage": "local",
+    "detail": "{'type': 'form', 'flow_id': '01KK0Z0HWEH7YQWVPND5H3MVME', 'handler': 'tuya_local', 'data_schema': [{'type': 'string', 'name': 'device_id', 'required': True, 'default': 'ebc941b918f2c7f446wr3i'}, {'type': 'string', 'name': 'host', 'required': True, 'default': '192.168.10.128'}, {'type': 'string', 'name': 'local_key', 'required': True, 'default': '[5tC~6YSNrkbmP|B'}, {'type': 'select', 'options': [['auto', 'auto'], [3.3, 3.3], [3.1, 3.1], [3.2, 3.2], [3.4, 3.4], [3.5, 3.5], [3.22, 3.22]], 'name': 'protocol_version', 'required': True, 'default': 3.5}, {'type': 'boolean', 'name': 'poll_only', 'required': True, 'default': False}, {'type': 'string', 'name': 'device_cid', 'required': False, 'optional': True}], 'errors': {'base': 'connection'}, 'description_placeholders': {'device_details_url': 'https://github.com/make-all/tuya-local/blob/main/DEVICE_DETAILS.md#finding-your-device-id-and-local-key'}, 'last_step': None, 'preview': None, 'step_id': 'local'}"
+  },
+  {
+    "name": "주방 드라이기 플러그 로컬",
+    "device_id": "eb61542c4c5afedc0f2fms",
+    "ok": true,
+    "entry_id": "01KK0Z1JD7K3NF29QRZCYBNBW9"
+  }
+]

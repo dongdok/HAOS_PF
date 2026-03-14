@@ -1,0 +1,86 @@
+required_core_entities = [
+  "switch.anbang_ceiling_light",
+  "light.anbang_stand_lighting",
+  "binary_sensor.anbang_presence",
+  "sensor.anbang_temperature",
+  "sensor.anbang_humidity",
+  "climate.anbang_hiteo",
+  "cover.anbang_curtain",
+  "switch.anbang_hiteo_peulreogeu",
+
+  "switch.geosil_ceiling_light",
+  "light.geosil_stand_lighting",
+  "light.geosil_keoteun_rain_jomyeong_rokeol",
+  "switch.geosil_line_lighting_plug",
+  "binary_sensor.geosil_presence",
+  "media_player.geosil_tv",
+
+  "switch.jubang_ceiling_light",
+  "binary_sensor.jubang_presence",
+  "switch.jubang_presence_sensor_plug",
+  "switch.jubang_deuraigi_peulreogeu_rokeol",
+  "switch.jubang_line_lighting_plug",
+  "switch.jubang_ac_remote_hub",
+
+  "switch.osbang_ceiling_light",
+  "binary_sensor.osbang_presence",
+  "sensor.osbang_ondo_rokeol",
+  "sensor.osbang_seubdo_rokeol",
+  "humidifier.osbang_jeseubgi_rokeol_naebuseubdo",
+
+  "switch.hwajangsil_ceiling_light",
+  "switch.hwajangsil_vent_fan",
+  "binary_sensor.hwajangsil_presence",
+  "binary_sensor.hwajangsil_door_contact",
+  "sensor.hwajangsil_door_battery",
+
+  "binary_sensor.hyeongwan_door",
+  "sensor.hyeongwan_door_battery",
+  "binary_sensor.hyeongwan_door_tamper",
+  "input_boolean.gasang_hyeongwan_doeo",
+  "input_boolean.gasang_hyeongwan_oecul_1",
+  "input_boolean.gasang_hyeongwan_oecul_2",
+]
+
+[[required_measurement_entities]]
+entity_id = "sensor.anbang_temperature"
+required_device_class = "temperature"
+required_state_class = "measurement"
+
+[[required_measurement_entities]]
+entity_id = "sensor.anbang_humidity"
+required_device_class = "humidity"
+required_state_class = "measurement"
+
+[[required_measurement_entities]]
+entity_id = "sensor.osbang_ondo_rokeol"
+required_device_class = "temperature"
+
+[[required_measurement_entities]]
+entity_id = "sensor.osbang_seubdo_rokeol"
+required_device_class = "humidity"
+
+[[required_measurement_entities]]
+entity_id = "sensor.hwajangsil_door_battery"
+required_device_class = "battery"
+required_state_class = "measurement"
+
+[[required_measurement_entities]]
+entity_id = "sensor.hyeongwan_door_battery"
+required_device_class = "battery"
+required_state_class = "measurement"
+
+[required_utility_meter_entities]
+monthly = [
+  "sensor.weol_nujeog_cong_jeonryeog",
+  "sensor.weol_nujeog_hiteo_jeonryeog",
+  "sensor.weol_nujeog_jeongimaeteu_jeonryeog",
+  "sensor.weol_nujeog_deuraigi_jeonryeog",
+  "sensor.weol_nujeog_gaseubgi_jeonryeog",
+]
+daily = [
+  "sensor.il_nujeog_hiteo_jeonryeog",
+  "sensor.il_nujeog_jeongimaeteu_jeonryeog",
+  "sensor.il_nujeog_deuraigi_jeonryeog",
+  "sensor.il_nujeog_gaseubgi_jeonryeog",
+]

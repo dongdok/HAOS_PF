@@ -1,0 +1,664 @@
+{
+  "views": [
+    {
+      "title": "홈킷 뷰(Sections)",
+      "path": "homekit-sections",
+      "type": "sections",
+      "icon": "mdi:home-group",
+      "sections": [
+        {
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "집(Home)",
+              "heading_style": "title",
+              "grid_options": {
+                "columns": "full",
+                "rows": 1
+              }
+            },
+            {
+              "show_current": true,
+              "show_forecast": false,
+              "type": "weather-forecast",
+              "entity": "weather.forecast_jib",
+              "forecast_type": "daily",
+              "grid_options": {
+                "columns": 9,
+                "rows": 2
+              }
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.iphonedongdong_battery_level"
+                },
+                {
+                  "entity": "sensor.iphonedongdong_battery_state"
+                }
+              ],
+              "grid_options": {
+                "columns": 9,
+                "rows": "auto"
+              }
+            },
+            {
+              "type": "tile",
+              "entity": "device_tracker.iphonedongdong",
+              "show_entity_picture": false,
+              "hide_state": false,
+              "vertical": false,
+              "features_position": "bottom",
+              "grid_options": {
+                "columns": 6,
+                "rows": 2
+              }
+            }
+          ],
+          "column_span": 4
+        },
+        {
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "거실"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.geosil_ceiling_light",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.geosil_ceiling_light"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.geosil_curtain_lighting_plug",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.geosil_curtain_lighting_plug"
+            },
+            {
+              "type": "tile",
+              "entity": "binary_sensor.geosil_presence"
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.geosil_tv"
+            },
+            {
+              "type": "horizontal-stack",
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "sensor.geosil_tv_illuminance",
+                  "show_entity_picture": false,
+                  "hide_state": false,
+                  "vertical": false,
+                  "features": [
+                    {
+                      "type": "trend-graph"
+                    }
+                  ],
+                  "features_position": "inline"
+                },
+                {
+                  "type": "tile",
+                  "entity": "sensor.geosil_tv_illuminance",
+                  "vertical": false,
+                  "features": [
+                    {
+                      "type": "trend-graph"
+                    }
+                  ],
+                  "features_position": "inline"
+                }
+              ]
+            }
+          ],
+          "column_span": 1
+        },
+        {
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "주방"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.jubang_main_light",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "binary_sensor.jubang_presence",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.jubang_presence_switch"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.jubang_presence_switch"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.jubang_hair_dryer",
+              "vertical": false,
+              "features_position": "bottom"
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "화장실"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.hwajangsil_lighting"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.hwajangsil_lighting_fan"
+            },
+            {
+              "type": "tile",
+              "entity": "binary_sensor.hwajangsil_door_contact"
+            },
+            {
+              "type": "tile",
+              "entity": "binary_sensor.hwajangsil_presence"
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "옷방"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.osbang_main_light",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "binary_sensor.osbang_presence",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.osbang_th_monitor_battery",
+                "sensor.osbang_th_monitor",
+                "sensor.osbang_th_monitor"
+              ]
+            },
+            {
+              "type": "humidifier",
+              "entity": "humidifier.osbang_dehumidifier",
+              "features": [
+                {
+                  "type": "humidifier-toggle"
+                }
+              ],
+              "show_current_as_primary": true
+            }
+          ]
+        },
+        {
+          "cards": [
+            {
+              "type": "heading",
+              "heading": "안방"
+            },
+            {
+              "type": "tile",
+              "entity": "light.anbang_stand_lighting",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_ceiling_light"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_desk_fan"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_desk_mic"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_desk_speaker"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_bedside_light"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_bedside_presence_switch",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_bedside_fan"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_electric_blanket"
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_heater_plug",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "binary_sensor.anbang_presence",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "binary_sensor.anbang_bedside_presence",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.anbang_th_monitor_battery",
+                "sensor.anbang_temperature",
+                "sensor.anbang_humidity"
+              ]
+            },
+            {
+              "type": "thermostat",
+              "entity": "climate.anbang_heater",
+              "features": [
+                {
+                  "type": "climate-hvac-modes"
+                }
+              ],
+              "show_current_as_primary": false
+            },
+            {
+              "type": "tile",
+              "entity": "cover.anbang_curtain",
+              "vertical": false,
+              "features_position": "bottom",
+              "features": [
+                {
+                  "type": "cover-open-close"
+                }
+              ]
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_humidifier",
+              "vertical": false,
+              "features_position": "bottom",
+              "features": [
+                {
+                  "type": "toggle"
+                }
+              ],
+              "grid_options": {
+                "columns": 6,
+                "rows": 2
+              }
+            },
+            {
+              "type": "tile",
+              "entity": "scene.anbangjomyeong_1peo",
+              "vertical": false,
+              "features_position": "bottom"
+            },
+            {
+              "type": "tile",
+              "entity": "scene.anbangjomyeong_100peo",
+              "vertical": false,
+              "features_position": "bottom"
+            }
+          ],
+          "column_span": 2
+        }
+      ]
+    },
+    {
+      "path": "default_view",
+      "title": "Home",
+      "cards": [
+        {
+          "type": "weather-forecast",
+          "entity": "weather.forecast_jib",
+          "show_forecast": false
+        },
+        {
+          "type": "vertical-stack",
+          "cards": [
+            {
+              "type": "markdown",
+              "content": "## 안방"
+            },
+            {
+              "square": false,
+              "type": "grid",
+              "columns": 2,
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "light.anbang_stand_lighting",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_ceiling_light"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_desk_fan"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_desk_mic"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_desk_speaker"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_bedside_light"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_bedside_presence_switch",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_bedside_fan"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_electric_blanket"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.anbang_heater_plug",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.anbang_presence",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.anbang_bedside_presence",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    "sensor.anbang_th_monitor_battery",
+                    "sensor.anbang_temperature",
+                    "sensor.anbang_humidity"
+                  ]
+                },
+                {
+                  "type": "thermostat",
+                  "entity": "climate.anbang_heater",
+                  "features": [
+                    {
+                      "type": "climate-hvac-modes"
+                    }
+                  ],
+                  "show_current_as_primary": false
+                }
+              ]
+            },
+            {
+              "type": "tile",
+              "entity": "cover.anbang_curtain",
+              "vertical": false,
+              "features_position": "bottom",
+              "features": [
+                {
+                  "type": "cover-open-close"
+                }
+              ]
+            },
+            {
+              "type": "tile",
+              "entity": "switch.anbang_humidifier",
+              "vertical": false,
+              "features_position": "bottom",
+              "features": [
+                {
+                  "type": "toggle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entities",
+          "entities": [
+            "person.gimdongyeong"
+          ]
+        },
+        {
+          "type": "vertical-stack",
+          "cards": [
+            {
+              "type": "markdown",
+              "content": "## 거실"
+            },
+            {
+              "type": "grid",
+              "columns": 2,
+              "square": false,
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "switch.geosil_ceiling_light",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.geosil_ceiling_light"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.geosil_curtain_lighting_plug",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.geosil_curtain_lighting_plug"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.geosil_presence",
+                  "vertical": false,
+                  "features_position": "bottom"
+                }
+              ]
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.geosil_tv"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.geosil_tv_illuminance"
+                },
+                {
+                  "entity": "sensor.geosil_tv_brightness",
+                  "secondary_info": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "vertical-stack",
+          "cards": [
+            {
+              "type": "markdown",
+              "content": "## 옷방"
+            },
+            {
+              "type": "grid",
+              "columns": 2,
+              "square": false,
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "switch.osbang_main_light",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.osbang_presence",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    "sensor.osbang_th_monitor_battery",
+                    "sensor.osbang_th_monitor",
+                    "sensor.osbang_th_monitor"
+                  ]
+                },
+                {
+                  "type": "humidifier",
+                  "entity": "humidifier.osbang_dehumidifier",
+                  "features": [
+                    {
+                      "type": "humidifier-toggle"
+                    }
+                  ],
+                  "show_current_as_primary": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "vertical-stack",
+          "cards": [
+            {
+              "type": "markdown",
+              "content": "## 주방"
+            },
+            {
+              "type": "grid",
+              "columns": 2,
+              "square": false,
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "switch.jubang_main_light",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.jubang_presence",
+                  "vertical": false,
+                  "features_position": "bottom"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.jubang_presence_switch"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.jubang_presence_switch"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.jubang_hair_dryer",
+                  "vertical": false,
+                  "features_position": "bottom"
+                }
+              ]
+            },
+            {
+              "type": "tile",
+              "entity": "switch.jubang_ac_remote_hub",
+              "vertical": false,
+              "features_position": "bottom"
+            }
+          ]
+        },
+        {
+          "type": "vertical-stack",
+          "cards": [
+            {
+              "type": "markdown",
+              "content": "## 화장실"
+            },
+            {
+              "type": "grid",
+              "columns": 2,
+              "square": false,
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "switch.hwajangsil_lighting"
+                },
+                {
+                  "type": "tile",
+                  "entity": "switch.hwajangsil_lighting_fan"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.hwajangsil_door_contact"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.hwajangsil_presence"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

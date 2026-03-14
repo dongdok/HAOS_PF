@@ -1,0 +1,167 @@
+[
+  {
+    "entity_id": "binary_sensor.occupancysensor_motion_2",
+    "name": "Occupancysensor 움직임",
+    "state": "on"
+  },
+  {
+    "entity_id": "binary_sensor.occupancysensor_motion_3",
+    "name": "Occupancysensor 움직임",
+    "state": "off"
+  },
+  {
+    "entity_id": "binary_sensor.hwajangsil_doeosenseo_door_2",
+    "name": "화장실 도어센서 문",
+    "state": "on"
+  },
+  {
+    "entity_id": "binary_sensor.hyeongwandoeosenseo_door_2",
+    "name": "현관도어센서 문",
+    "state": "off"
+  },
+  {
+    "entity_id": "sensor.anbang_onseubdosenseo_humidity_2",
+    "name": "안방 온습도센서 습도",
+    "state": "55.0"
+  },
+  {
+    "entity_id": "sensor.anbang_onseubdosenseo_temperature_2",
+    "name": "안방 온습도센서 온도",
+    "state": "20.8"
+  },
+  {
+    "entity_id": "sensor.occupancysensor_illuminance_2",
+    "name": "Occupancysensor 조도",
+    "state": "1"
+  },
+  {
+    "entity_id": "sensor.occupancysensor_illuminance_3",
+    "name": "Occupancysensor 조도",
+    "state": "0"
+  },
+  {
+    "entity_id": "sensor.hwajangsil_doeosenseo_battery_2",
+    "name": "화장실 도어센서 배터리",
+    "state": "100"
+  },
+  {
+    "entity_id": "sensor.hyeongwandoeosenseo_battery_2",
+    "name": "현관도어센서 배터리",
+    "state": "96"
+  },
+  {
+    "entity_id": "sensor.osbang_onseubdosenseo_humidity_2",
+    "name": "옷방 온습도센서 습도",
+    "state": "44"
+  },
+  {
+    "entity_id": "sensor.osbang_onseubdosenseo_temperature_2",
+    "name": "옷방 온습도센서 온도",
+    "state": "18.6"
+  },
+  {
+    "entity_id": "switch.outlet1_3",
+    "name": "outlet1",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.switch_3",
+    "name": "Switch 3",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.switch_1_3",
+    "name": "Switch 1",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.outlet51_3",
+    "name": "outlet51",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.switch_4_3",
+    "name": "Switch 4",
+    "state": "off"
+  },
+  {
+    "entity_id": "update.occupancysensor_firmware_2",
+    "name": "Occupancysensor 펌웨어",
+    "state": "off"
+  },
+  {
+    "entity_id": "update.occupancysensor_firmware_3",
+    "name": "Occupancysensor 펌웨어",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildangasang4gu_switch_2",
+    "name": "일단가상4구 Switch 2",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildangasang4gu_switch_3",
+    "name": "일단가상4구 Switch 3",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildan_gasang4gu_2_switch_2",
+    "name": "일단 가상4구 2 Switch 2",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildan_gasang4gu_2_switch_3",
+    "name": "일단 가상4구 2 Switch 3",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildangasang_3gu_switch_2",
+    "name": "일단가상 3구  Switch 2",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildangasang_3gu_switch_3",
+    "name": "일단가상 3구  Switch 3",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildangasang_4gu_3_switch_2",
+    "name": "일단가상 4구 3 Switch 2",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.ildangasang_4gu_3_switch_3",
+    "name": "일단가상 4구 3 Switch 3",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.cimdaebul1_meorimatjaesil2_cimdaeseonpunggi3_switch_2",
+    "name": "침대불1/머리맡재실2/침대선풍기3 Switch 2",
+    "state": "on"
+  },
+  {
+    "entity_id": "switch.cimdaebul1_meorimatjaesil2_cimdaeseonpunggi3_switch_3",
+    "name": "침대불1/머리맡재실2/침대선풍기3 Switch 3",
+    "state": "on"
+  },
+  {
+    "entity_id": "switch.2jubang_jaesil_3deuraigibul_switch_2",
+    "name": "2주방 재실/3드라이기불/ Switch 2",
+    "state": "on"
+  },
+  {
+    "entity_id": "switch.2jubang_jaesil_3deuraigibul_switch_3",
+    "name": "2주방 재실/3드라이기불/ Switch 3",
+    "state": "off"
+  },
+  {
+    "entity_id": "switch.1caegsangseonpunggi_2maikeu_3seupikeo_switch_2",
+    "name": "1책상선풍기/2마이크/3스피커 Switch 2",
+    "state": "on"
+  },
+  {
+    "entity_id": "switch.1caegsangseonpunggi_2maikeu_3seupikeo_switch_3",
+    "name": "1책상선풍기/2마이크/3스피커 Switch 3",
+    "state": "on"
+  }
+]

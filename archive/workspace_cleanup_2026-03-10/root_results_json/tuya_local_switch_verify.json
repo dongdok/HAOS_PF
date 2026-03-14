@@ -1,0 +1,42 @@
+[
+  {
+    "entity_id": "switch.anbang_hiteo_peulreogeu_rokeol",
+    "on_code": 200,
+    "state_after_on": "on",
+    "off_code": 200,
+    "state_after_off": "off",
+    "pass": true
+  },
+  {
+    "entity_id": "switch.anbang_gaseubgi_peulreogeu_rokeol",
+    "on_code": 200,
+    "state_after_on": "on",
+    "off_code": 200,
+    "state_after_off": "off",
+    "pass": true
+  },
+  {
+    "entity_id": "switch.anbang_jeongijangpan_peulreogeu_rokeol",
+    "on_code": 200,
+    "state_after_on": "on",
+    "off_code": 200,
+    "state_after_off": "off",
+    "pass": true
+  },
+  {
+    "entity_id": "switch.jubang_deuraigi_peulreogeu_rokeol",
+    "on_code": 200,
+    "state_after_on": "on",
+    "off_code": 200,
+    "state_after_off": "off",
+    "pass": true
+  },
+  {
+    "entity_id": "switch.geosil_rain_jomyeong_jeonweon_seuwici_rokeol",
+    "on_code": 200,
+    "state_after_on": "on",
+    "off_code": 200,
+    "state_after_off": "off",
+    "pass": true
+  }
+]

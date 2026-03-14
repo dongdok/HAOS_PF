@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "already_configured": true,
+  "protocol": 3.4,
+  "detail": {
+    "type": "abort",
+    "flow_id": "01KK72RJJC9JWN7SNP2G69MFJS",
+    "handler": "tuya_local",
+    "reason": "already_configured",
+    "description_placeholders": null
+  }
+}

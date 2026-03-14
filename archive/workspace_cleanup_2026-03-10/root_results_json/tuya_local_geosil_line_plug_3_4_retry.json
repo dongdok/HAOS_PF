@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "status": 200,
+  "response": {
+    "type": "abort",
+    "flow_id": "01KK739E1WEYEM5H7PNDS278F7",
+    "handler": "tuya_local",
+    "reason": "already_configured",
+    "description_placeholders": null
+  }
+}

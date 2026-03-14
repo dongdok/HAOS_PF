@@ -1,0 +1,3120 @@
+[
+  {
+    "entity_id": "update.home_assistant_supervisor_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": true,
+      "display_precision": 0,
+      "installed_version": "2026.02.3",
+      "in_progress": false,
+      "latest_version": "2026.02.3",
+      "release_summary": null,
+      "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2026.02.3",
+      "skipped_version": null,
+      "title": "Home Assistant Supervisor",
+      "update_percentage": null,
+      "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+      "friendly_name": "Home Assistant Supervisor Update",
+      "supported_features": 1
+    },
+    "last_changed": "2026-03-02T21:02:57.229901+00:00",
+    "last_reported": "2026-03-02T21:02:57.229901+00:00",
+    "last_updated": "2026-03-02T21:02:57.229901+00:00",
+    "context": {
+      "id": "01KJR5RZ6D3X1357455G3AFQTD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.home_assistant_core_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "2026.2.3",
+      "in_progress": false,
+      "latest_version": "2026.2.3",
+      "release_summary": null,
+      "release_url": "https://www.home-assistant.io/latest-release-notes/",
+      "skipped_version": null,
+      "title": "Home Assistant Core",
+      "update_percentage": null,
+      "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+      "friendly_name": "Home Assistant Core Update",
+      "supported_features": 15
+    },
+    "last_changed": "2026-03-02T21:02:57.230155+00:00",
+    "last_reported": "2026-03-02T21:02:57.230155+00:00",
+    "last_updated": "2026-03-02T21:02:57.230155+00:00",
+    "context": {
+      "id": "01KJR5RZ6EHGBKG92QD77BWEK0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.matter_server_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "8.2.2",
+      "in_progress": false,
+      "latest_version": "8.2.2",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Matter Server",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/core_matter_server/icon",
+      "friendly_name": "Matter Server Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:04:56.178974+00:00",
+    "last_reported": "2026-03-02T21:04:56.179392+00:00",
+    "last_updated": "2026-03-02T21:04:56.178974+00:00",
+    "context": {
+      "id": "01KJR5WKBJVBY5CR5DCFBZ6575",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.file_editor_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "5.8.0",
+      "in_progress": false,
+      "latest_version": "5.8.0",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "File editor",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/core_configurator/icon",
+      "friendly_name": "File editor Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:02:57.230633+00:00",
+    "last_reported": "2026-03-02T21:02:57.230633+00:00",
+    "last_updated": "2026-03-02T21:02:57.230633+00:00",
+    "context": {
+      "id": "01KJR5RZ6EC0129VZ6ZTKJ8KHZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.samba_share_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "12.6.0",
+      "in_progress": false,
+      "latest_version": "12.6.0",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Samba share",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/core_samba/icon",
+      "friendly_name": "Samba share Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:05:47.986336+00:00",
+    "last_reported": "2026-03-02T21:05:47.986727+00:00",
+    "last_updated": "2026-03-02T21:05:47.986336+00:00",
+    "context": {
+      "id": "01KJR5Y5YJPK7SSN843XCF8GN1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.studio_code_server_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "6.0.1",
+      "in_progress": false,
+      "latest_version": "6.0.1",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Studio Code Server",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+      "friendly_name": "Studio Code Server Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:07:50.117990+00:00",
+    "last_reported": "2026-03-02T21:07:50.118304+00:00",
+    "last_updated": "2026-03-02T21:07:50.117990+00:00",
+    "context": {
+      "id": "01KJR61X75C41S8Z6ZNG7M7HWK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.mosquitto_broker_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "6.5.2",
+      "in_progress": false,
+      "latest_version": "6.5.2",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Mosquitto broker",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/core_mosquitto/icon",
+      "friendly_name": "Mosquitto broker Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:02:57.231291+00:00",
+    "last_reported": "2026-03-02T21:02:57.231291+00:00",
+    "last_updated": "2026-03-02T21:02:57.231291+00:00",
+    "context": {
+      "id": "01KJR5RZ6FVHX82CSZ1KQ9YYMD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.advanced_ssh_web_terminal_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "23.0.3",
+      "in_progress": false,
+      "latest_version": "23.0.3",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Advanced SSH & Web Terminal",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/a0d7b954_ssh/icon",
+      "friendly_name": "Advanced SSH & Web Terminal Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:04:03.448361+00:00",
+    "last_reported": "2026-03-02T21:04:03.448669+00:00",
+    "last_updated": "2026-03-02T21:04:03.448361+00:00",
+    "context": {
+      "id": "01KJR5TZVRVBQ408S1TRXKFHAP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.duck_dns_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "1.26.0",
+      "in_progress": false,
+      "latest_version": "1.26.0",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Duck DNS",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/core_duckdns/icon",
+      "friendly_name": "Duck DNS Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:02:57.231804+00:00",
+    "last_reported": "2026-03-02T21:02:57.231804+00:00",
+    "last_updated": "2026-03-02T21:02:57.231804+00:00",
+    "context": {
+      "id": "01KJR5RZ6FGEXQ8Q0X75DZ3Y5H",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.tailscale_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "0.27.1",
+      "in_progress": false,
+      "latest_version": "0.27.1",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Tailscale",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/a0d7b954_tailscale/icon",
+      "friendly_name": "Tailscale Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:08:52.575906+00:00",
+    "last_reported": "2026-03-02T21:08:52.576146+00:00",
+    "last_updated": "2026-03-02T21:08:52.575906+00:00",
+    "context": {
+      "id": "01KJR63T6ZQPBKE0BH1QX1C9KP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.home_assistant_google_drive_backup_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "0.112.1",
+      "in_progress": false,
+      "latest_version": "0.112.1",
+      "release_summary": null,
+      "release_url": null,
+      "skipped_version": null,
+      "title": "Home Assistant Google Drive Backup",
+      "update_percentage": null,
+      "entity_picture": "/api/hassio/addons/cebe7a76_hassio_google_drive_backup/icon",
+      "friendly_name": "Home Assistant Google Drive Backup Update",
+      "supported_features": 29
+    },
+    "last_changed": "2026-03-02T21:02:57.232654+00:00",
+    "last_reported": "2026-03-02T21:02:57.232654+00:00",
+    "last_updated": "2026-03-02T21:02:57.232654+00:00",
+    "context": {
+      "id": "01KJR5RZ6GE480NY3WAZRJKH4M",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "update.home_assistant_operating_system_update",
+    "state": "off",
+    "attributes": {
+      "auto_update": false,
+      "display_precision": 0,
+      "installed_version": "17.1",
+      "in_progress": false,
+      "latest_version": "17.1",
+      "release_summary": null,
+      "release_url": "https://github.com/home-assistant/operating-system/releases/tag/17.1",
+      "skipped_version": null,
+      "title": "Home Assistant Operating System",
+      "update_percentage": null,
+      "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+      "friendly_name": "Home Assistant Operating System Update",
+      "supported_features": 11
+    },
+    "last_changed": "2026-03-02T21:02:57.232850+00:00",
+    "last_reported": "2026-03-02T21:02:57.232850+00:00",
+    "last_updated": "2026-03-02T21:02:57.232850+00:00",
+    "context": {
+      "id": "01KJR5RZ6GJMJM82Z29E1ZNMZG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "conversation.home_assistant",
+    "state": "2026-02-16T09:16:05.746377+00:00",
+    "attributes": {
+      "friendly_name": "Home Assistant",
+      "supported_features": 1
+    },
+    "last_changed": "2026-03-02T21:02:57.466235+00:00",
+    "last_reported": "2026-03-02T21:02:57.466235+00:00",
+    "last_updated": "2026-03-02T21:02:57.466235+00:00",
+    "context": {
+      "id": "01KJR5RZDT9S8SY1GE9GY76FDY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "event.backup_automatic_backup",
+    "state": "2026-03-02T20:52:56.052+00:00",
+    "attributes": {
+      "event_types": [
+        "completed",
+        "failed",
+        "in_progress"
+      ],
+      "event_type": "completed",
+      "backup_stage": null,
+      "failed_reason": null,
+      "friendly_name": "Backup Automatic backup"
+    },
+    "last_changed": "2026-03-02T21:02:57.597002+00:00",
+    "last_reported": "2026-03-02T21:02:57.597002+00:00",
+    "last_updated": "2026-03-02T21:02:57.597002+00:00",
+    "context": {
+      "id": "01KJR5RZHXNBBX0EVQ7JCBAZF2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.backup_backup_manager_state",
+    "state": "idle",
+    "attributes": {
+      "options": [
+        "idle",
+        "create_backup",
+        "blocked",
+        "receive_backup",
+        "restore_backup"
+      ],
+      "device_class": "enum",
+      "friendly_name": "Backup Backup Manager state"
+    },
+    "last_changed": "2026-03-02T21:03:23.974041+00:00",
+    "last_reported": "2026-03-02T21:03:23.974041+00:00",
+    "last_updated": "2026-03-02T21:03:23.974041+00:00",
+    "context": {
+      "id": "01KJR5SSA6H4R62QPKWNS1ADC1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.backup_next_scheduled_automatic_backup",
+    "state": "2026-03-03T20:34:08+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Backup Next scheduled automatic backup"
+    },
+    "last_changed": "2026-03-02T21:02:57.597911+00:00",
+    "last_reported": "2026-03-02T21:03:23.974150+00:00",
+    "last_updated": "2026-03-02T21:02:57.597911+00:00",
+    "context": {
+      "id": "01KJR5RZHX78AR598TNYWZW4A9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.backup_last_successful_automatic_backup",
+    "state": "2026-03-02T20:52:56+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Backup Last successful automatic backup"
+    },
+    "last_changed": "2026-03-02T21:02:57.598257+00:00",
+    "last_reported": "2026-03-02T21:03:23.974181+00:00",
+    "last_updated": "2026-03-02T21:02:57.598257+00:00",
+    "context": {
+      "id": "01KJR5RZHYNZHF5AWWS7WD4M2S",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.backup_last_attempted_automatic_backup",
+    "state": "2026-03-02T20:52:54+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Backup Last attempted automatic backup"
+    },
+    "last_changed": "2026-03-02T21:02:57.598487+00:00",
+    "last_reported": "2026-03-02T21:03:23.974206+00:00",
+    "last_updated": "2026-03-02T21:02:57.598487+00:00",
+    "context": {
+      "id": "01KJR5RZHYZG69YJNV29ZM2BGZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "zone.home",
+    "state": "0",
+    "attributes": {
+      "latitude": 37.58262646364893,
+      "longitude": 127.05255007464375,
+      "radius": 100,
+      "passive": false,
+      "persons": [],
+      "editable": true,
+      "icon": "mdi:home",
+      "friendly_name": "\uc9d1"
+    },
+    "last_changed": "2026-03-02T21:24:56.280670+00:00",
+    "last_reported": "2026-03-02T21:24:56.280670+00:00",
+    "last_updated": "2026-03-02T21:24:56.280670+00:00",
+    "context": {
+      "id": "01KJR717ARFF2VGKN4WC3KMMYG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "person.gimdongyeong",
+    "state": "not_home",
+    "attributes": {
+      "editable": true,
+      "id": "gimdongyeong",
+      "device_trackers": [
+        "device_tracker.iphonedongdong",
+        "device_tracker.ipaddongdong_7th_generation"
+      ],
+      "latitude": 35.87614317925857,
+      "longitude": 128.6253612770433,
+      "gps_accuracy": 34,
+      "source": "device_tracker.iphonedongdong",
+      "user_id": "f2c07c1b16ba43ff834c34dba782872f",
+      "friendly_name": "\uae40\ub3d9\uc601"
+    },
+    "last_changed": "2026-03-02T21:24:56.279695+00:00",
+    "last_reported": "2026-03-03T02:40:25.343103+00:00",
+    "last_updated": "2026-03-03T02:40:25.343103+00:00",
+    "context": {
+      "id": "01KJRS2WQZ19X87FQ0BPX8CFW9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sun.sun",
+    "state": "below_horizon",
+    "attributes": {
+      "next_dawn": "2026-03-03T21:33:10.102756+00:00",
+      "next_dusk": "2026-03-04T09:54:32.193743+00:00",
+      "next_midnight": "2026-03-03T15:43:34+00:00",
+      "next_noon": "2026-03-04T03:43:35+00:00",
+      "next_rising": "2026-03-03T21:59:51.094896+00:00",
+      "next_setting": "2026-03-04T09:27:48.733797+00:00",
+      "elevation": -7.59,
+      "azimuth": 267.35,
+      "rising": false,
+      "friendly_name": "Sun"
+    },
+    "last_changed": "2026-03-03T09:28:49.718234+00:00",
+    "last_reported": "2026-03-03T10:01:48.730072+00:00",
+    "last_updated": "2026-03-03T10:01:34.530820+00:00",
+    "context": {
+      "id": "01KJSJANJ2P4MQEQYQ75K7KGDH",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.sun_next_dawn",
+    "state": "2026-03-03T21:33:10+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Sun \ub2e4\uc74c \uc0c8\ubcbd"
+    },
+    "last_changed": "2026-03-02T21:34:33.260212+00:00",
+    "last_reported": "2026-03-02T21:34:33.260212+00:00",
+    "last_updated": "2026-03-02T21:34:33.260212+00:00",
+    "context": {
+      "id": "01KJR7JTSCKW3AC6SDG9DM65KP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.sun_next_dusk",
+    "state": "2026-03-04T09:54:32+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Sun \ub2e4\uc74c \ud669\ud63c"
+    },
+    "last_changed": "2026-03-03T09:53:34.529340+00:00",
+    "last_reported": "2026-03-03T09:53:34.529340+00:00",
+    "last_updated": "2026-03-03T09:53:34.529340+00:00",
+    "context": {
+      "id": "01KJSHW0T1DSNJHB6GN6BR1QZ7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.sun_next_midnight",
+    "state": "2026-03-03T15:43:34+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Sun \ub2e4\uc74c \uc790\uc815"
+    },
+    "last_changed": "2026-03-02T21:02:58.738195+00:00",
+    "last_reported": "2026-03-02T21:02:58.738195+00:00",
+    "last_updated": "2026-03-02T21:02:58.738195+00:00",
+    "context": {
+      "id": "01KJR5S0NJHN501CNRVA2SRE22",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.sun_next_noon",
+    "state": "2026-03-04T03:43:35+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Sun \ub2e4\uc74c \uc815\uc624"
+    },
+    "last_changed": "2026-03-03T03:43:47.008569+00:00",
+    "last_reported": "2026-03-03T03:43:47.008569+00:00",
+    "last_updated": "2026-03-03T03:43:47.008569+00:00",
+    "context": {
+      "id": "01KJRWPXA0ABE968RB284C61DB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.sun_next_rising",
+    "state": "2026-03-03T21:59:51+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Sun \ub2e4\uc74c \ud574\ub3cb\uc774"
+    },
+    "last_changed": "2026-03-02T22:01:15.659726+00:00",
+    "last_reported": "2026-03-02T22:01:15.659726+00:00",
+    "last_updated": "2026-03-02T22:01:15.659726+00:00",
+    "context": {
+      "id": "01KJR93QMB36FS1K3E6XKH27FF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.sun_next_setting",
+    "state": "2026-03-04T09:27:48+00:00",
+    "attributes": {
+      "device_class": "timestamp",
+      "friendly_name": "Sun \ub2e4\uc74c \ud574\ub118\uc774"
+    },
+    "last_changed": "2026-03-03T09:26:49.716298+00:00",
+    "last_reported": "2026-03-03T09:26:49.716298+00:00",
+    "last_updated": "2026-03-03T09:26:49.716298+00:00",
+    "context": {
+      "id": "01KJSGB1KMS3RE0CRN3R8SNH24",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.iphonedongdong",
+    "state": "not_home",
+    "attributes": {
+      "source_type": "gps",
+      "battery_level": 45,
+      "latitude": 35.87614317925857,
+      "longitude": 128.6253612770433,
+      "gps_accuracy": 34,
+      "altitude": 55.43657464413022,
+      "vertical_accuracy": 3,
+      "friendly_name": "iPhone\ub3d9\ub3d9"
+    },
+    "last_changed": "2026-03-03T02:40:25.342915+00:00",
+    "last_reported": "2026-03-03T02:40:25.342915+00:00",
+    "last_updated": "2026-03-03T02:40:25.342915+00:00",
+    "context": {
+      "id": "01KJRS2WQY2CSWS91RDKP475R0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_battery_level",
+    "state": "45",
+    "attributes": {
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "icon": "mdi:battery",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Battery Level"
+    },
+    "last_changed": "2026-03-03T02:18:00.538244+00:00",
+    "last_reported": "2026-03-03T07:46:39.679676+00:00",
+    "last_updated": "2026-03-03T07:46:39.679676+00:00",
+    "context": {
+      "id": "01KJSAKMDZSTJFME3PPYNJMCWE",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_battery_state",
+    "state": "Not Charging",
+    "attributes": {
+      "Low Power Mode": true,
+      "icon": "mdi:battery-heart-variant",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Battery State"
+    },
+    "last_changed": "2026-03-02T21:03:01.619276+00:00",
+    "last_reported": "2026-03-03T07:46:39.771759+00:00",
+    "last_updated": "2026-03-03T07:46:39.771759+00:00",
+    "context": {
+      "id": "01KJSAKMGVQ7WFRF5YRAZ1PFK3",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_sim_2",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 SIM 2"
+    },
+    "last_changed": "2026-03-02T21:03:01.619440+00:00",
+    "last_reported": "2026-03-02T21:03:01.619440+00:00",
+    "last_updated": "2026-03-02T21:03:01.619440+00:00",
+    "context": {
+      "id": "01KJR5S3FK70FSPYMRDKXFKAXE",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_sim_1",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 SIM 1"
+    },
+    "last_changed": "2026-03-02T21:03:01.619624+00:00",
+    "last_reported": "2026-03-02T21:03:01.619624+00:00",
+    "last_updated": "2026-03-02T21:03:01.619624+00:00",
+    "context": {
+      "id": "01KJR5S3FKT82FN4XV5QRA524R",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_geocoded_location",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Geocoded Location"
+    },
+    "last_changed": "2026-03-02T21:03:01.619787+00:00",
+    "last_reported": "2026-03-02T21:03:01.619787+00:00",
+    "last_updated": "2026-03-02T21:03:01.619787+00:00",
+    "context": {
+      "id": "01KJR5S3FKBYD6MEXMH6NFP4P1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_last_update_trigger",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Last Update Trigger"
+    },
+    "last_changed": "2026-03-02T21:03:01.619931+00:00",
+    "last_reported": "2026-03-02T21:03:01.619931+00:00",
+    "last_updated": "2026-03-02T21:03:01.619931+00:00",
+    "context": {
+      "id": "01KJR5S3FKE4N4DNQ22EQC6049",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_ssid",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 SSID"
+    },
+    "last_changed": "2026-03-02T21:03:01.620140+00:00",
+    "last_reported": "2026-03-02T21:03:01.620140+00:00",
+    "last_updated": "2026-03-02T21:03:01.620140+00:00",
+    "context": {
+      "id": "01KJR5S3FMH0V8YDVQTHA395E6",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_storage",
+    "state": "unavailable",
+    "attributes": {
+      "unit_of_measurement": "% available",
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Storage"
+    },
+    "last_changed": "2026-03-02T21:03:01.620295+00:00",
+    "last_reported": "2026-03-02T21:03:01.620295+00:00",
+    "last_updated": "2026-03-02T21:03:01.620295+00:00",
+    "context": {
+      "id": "01KJR5S3FMR66128Z40MMF3E9H",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_bssid",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 BSSID"
+    },
+    "last_changed": "2026-03-02T21:03:01.620467+00:00",
+    "last_reported": "2026-03-02T21:03:01.620467+00:00",
+    "last_updated": "2026-03-02T21:03:01.620467+00:00",
+    "context": {
+      "id": "01KJR5S3FMX8ZA5Y69NGGY8TC4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_app_version",
+    "state": "2026.2.1",
+    "attributes": {
+      "icon": "mdi:cellphone",
+      "friendly_name": "iPhone\ub3d9\ub3d9 App Version"
+    },
+    "last_changed": "2026-03-02T21:03:01.620682+00:00",
+    "last_reported": "2026-03-02T21:03:01.620682+00:00",
+    "last_updated": "2026-03-02T21:03:01.620682+00:00",
+    "context": {
+      "id": "01KJR5S3FM1D6SE8EJCDJT24D0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_connection_type",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Connection Type"
+    },
+    "last_changed": "2026-03-02T21:03:01.620852+00:00",
+    "last_reported": "2026-03-02T21:03:01.620852+00:00",
+    "last_updated": "2026-03-02T21:03:01.620852+00:00",
+    "context": {
+      "id": "01KJR5S3FMFQBGMY592ZXARFR7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_location_permission",
+    "state": "Authorized Always",
+    "attributes": {
+      "icon": "mdi:map",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Location permission"
+    },
+    "last_changed": "2026-03-02T21:03:01.621259+00:00",
+    "last_reported": "2026-03-02T21:03:01.621259+00:00",
+    "last_updated": "2026-03-02T21:03:01.621259+00:00",
+    "context": {
+      "id": "01KJR5S3FN3EFSZGF8JBZM3SW5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.iphonedongdong_audio_output",
+    "state": "unavailable",
+    "attributes": {
+      "icon": "mdi:dots-square",
+      "friendly_name": "iPhone\ub3d9\ub3d9 Audio Output"
+    },
+    "last_changed": "2026-03-02T21:03:01.621439+00:00",
+    "last_reported": "2026-03-02T21:03:01.621439+00:00",
+    "last_updated": "2026-03-02T21:03:01.621439+00:00",
+    "context": {
+      "id": "01KJR5S3FN13X7BBBPNAWZ84R7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.ipaddongdong_7th_generation_focus",
+    "state": "off",
+    "attributes": {
+      "icon": "mdi:moon-waning-crescent",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Focus"
+    },
+    "last_changed": "2026-03-02T21:03:01.622011+00:00",
+    "last_reported": "2026-03-02T21:03:01.622011+00:00",
+    "last_updated": "2026-03-02T21:03:01.622011+00:00",
+    "context": {
+      "id": "01KJR5S3FPZVYQ7RY7RCYB86VZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.ipaddongdong_7th_generation",
+    "state": "unknown",
+    "attributes": {
+      "source_type": "gps",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation)"
+    },
+    "last_changed": "2026-03-02T21:03:01.622366+00:00",
+    "last_reported": "2026-03-02T21:03:01.622366+00:00",
+    "last_updated": "2026-03-02T21:03:01.622366+00:00",
+    "context": {
+      "id": "01KJR5S3FPGKNTZV2XB05XTFRW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_battery_level",
+    "state": "100",
+    "attributes": {
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "icon": "mdi:battery",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Battery Level"
+    },
+    "last_changed": "2026-03-02T21:03:01.622813+00:00",
+    "last_reported": "2026-03-02T21:03:01.622813+00:00",
+    "last_updated": "2026-03-02T21:03:01.622813+00:00",
+    "context": {
+      "id": "01KJR5S3FPF5BT7WX4CN5AF30Y",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_battery_state",
+    "state": "Full",
+    "attributes": {
+      "Low Power Mode": false,
+      "icon": "mdi:battery-heart-variant",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Battery State"
+    },
+    "last_changed": "2026-03-02T21:03:01.622981+00:00",
+    "last_reported": "2026-03-03T07:46:39.761879+00:00",
+    "last_updated": "2026-03-03T07:46:39.761879+00:00",
+    "context": {
+      "id": "01KJSAKMGHNBDWERCCQ12FH2YH",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_storage",
+    "state": "9.63",
+    "attributes": {
+      "Available": "2.87GB",
+      "Available (Important)": "5.84GB",
+      "Available (Opportunistic)": "3.08GB",
+      "Total": "31.98GB",
+      "unit_of_measurement": "% available",
+      "icon": "mdi:database",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Storage"
+    },
+    "last_changed": "2026-03-02T21:03:01.623223+00:00",
+    "last_reported": "2026-03-02T21:03:01.623223+00:00",
+    "last_updated": "2026-03-02T21:03:01.623223+00:00",
+    "context": {
+      "id": "01KJR5S3FQEST9JSGGBGB66SYC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_ssid",
+    "state": "Not Connected",
+    "attributes": {
+      "icon": "mdi:wifi-off",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) SSID"
+    },
+    "last_changed": "2026-03-02T21:03:01.623398+00:00",
+    "last_reported": "2026-03-02T21:03:01.623398+00:00",
+    "last_updated": "2026-03-02T21:03:01.623398+00:00",
+    "context": {
+      "id": "01KJR5S3FQTHQC291MAQ5X99C0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_bssid",
+    "state": "Not Connected",
+    "attributes": {
+      "icon": "mdi:wifi-off",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) BSSID"
+    },
+    "last_changed": "2026-03-02T21:03:01.623567+00:00",
+    "last_reported": "2026-03-02T21:03:01.623567+00:00",
+    "last_updated": "2026-03-02T21:03:01.623567+00:00",
+    "context": {
+      "id": "01KJR5S3FQ5KYK35W8YNRYVECD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_geocoded_location",
+    "state": "Unknown",
+    "attributes": {
+      "icon": "mdi:map",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Geocoded Location"
+    },
+    "last_changed": "2026-03-02T21:03:01.623741+00:00",
+    "last_reported": "2026-03-02T21:03:01.623741+00:00",
+    "last_updated": "2026-03-02T21:03:01.623741+00:00",
+    "context": {
+      "id": "01KJR5S3FQXQBZ9BH1EMT7ZT68",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_app_version",
+    "state": "2025.1",
+    "attributes": {
+      "icon": "mdi:cellphone",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) App Version"
+    },
+    "last_changed": "2026-03-02T21:03:01.623927+00:00",
+    "last_reported": "2026-03-02T21:03:01.623927+00:00",
+    "last_updated": "2026-03-02T21:03:01.623927+00:00",
+    "context": {
+      "id": "01KJR5S3FQXKTZG8S4H265CXFV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_location_permission",
+    "state": "Authorized when in use",
+    "attributes": {
+      "icon": "mdi:map",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Location permission"
+    },
+    "last_changed": "2026-03-02T21:03:01.624065+00:00",
+    "last_reported": "2026-03-02T21:03:01.624065+00:00",
+    "last_updated": "2026-03-02T21:03:01.624065+00:00",
+    "context": {
+      "id": "01KJR5S3FRG0KF29X2FJ9ZW13T",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_connection_type",
+    "state": "Wi-Fi",
+    "attributes": {
+      "icon": "mdi:wifi",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Connection Type"
+    },
+    "last_changed": "2026-03-02T21:03:01.624198+00:00",
+    "last_reported": "2026-03-02T21:03:01.624198+00:00",
+    "last_updated": "2026-03-02T21:03:01.624198+00:00",
+    "context": {
+      "id": "01KJR5S3FRE0M6FFKFAQHVTHJ7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_last_update_trigger",
+    "state": "Signaled",
+    "attributes": {
+      "icon": "mdi:cellphone-wireless",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Last Update Trigger"
+    },
+    "last_changed": "2026-03-02T21:03:01.624357+00:00",
+    "last_reported": "2026-03-02T21:03:01.624357+00:00",
+    "last_updated": "2026-03-02T21:03:01.624357+00:00",
+    "context": {
+      "id": "01KJR5S3FRZ04H4R4SA8NZM1P2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.ipaddongdong_7th_generation_audio_output",
+    "state": "Built-in Speaker",
+    "attributes": {
+      "icon": "mdi:volume-high",
+      "friendly_name": "iPad\ub3d9\ub3d9 (7th generation) Audio Output"
+    },
+    "last_changed": "2026-03-02T21:03:01.624505+00:00",
+    "last_reported": "2026-03-02T21:03:01.624505+00:00",
+    "last_updated": "2026-03-02T21:03:01.624505+00:00",
+    "context": {
+      "id": "01KJR5S3FRTD3M5NY24PGN1Q74",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "todo.shopping_list",
+    "state": "0",
+    "attributes": {
+      "friendly_name": "\uc1fc\ud551 \ub9ac\uc2a4\ud2b8",
+      "supported_features": 15
+    },
+    "last_changed": "2026-03-02T21:03:01.643779+00:00",
+    "last_reported": "2026-03-02T21:03:01.643779+00:00",
+    "last_updated": "2026-03-02T21:03:01.643779+00:00",
+    "context": {
+      "id": "01KJR5S3GBS3P6X9WN859SF23P",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "tts.google_translate_en_com",
+    "state": "unknown",
+    "attributes": {
+      "friendly_name": "Google Translate en com"
+    },
+    "last_changed": "2026-03-02T21:03:01.655656+00:00",
+    "last_reported": "2026-03-02T21:03:01.655656+00:00",
+    "last_updated": "2026-03-02T21:03:01.655656+00:00",
+    "context": {
+      "id": "01KJR5S3GQ4CH4A798796R2PPB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "weather.forecast_jib",
+    "state": "cloudy",
+    "attributes": {
+      "temperature": 6.3,
+      "dew_point": -1.5,
+      "temperature_unit": "\u00b0C",
+      "humidity": 58,
+      "cloud_coverage": 98.4,
+      "uv_index": 0.0,
+      "pressure": 1023.8,
+      "pressure_unit": "hPa",
+      "wind_bearing": 75.8,
+      "wind_speed": 13.0,
+      "wind_speed_unit": "km/h",
+      "visibility_unit": "km",
+      "precipitation_unit": "mm",
+      "attribution": "Weather forecast from met.no, delivered by the Norwegian Meteorological Institute.",
+      "friendly_name": "Forecast \uc9d1",
+      "supported_features": 3
+    },
+    "last_changed": "2026-03-03T08:58:17.672395+00:00",
+    "last_reported": "2026-03-03T09:53:18.988751+00:00",
+    "last_updated": "2026-03-03T09:53:18.988751+00:00",
+    "context": {
+      "id": "01KJSHVHMC9P7FNHWXGBJTCY2Q",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.zemismart_m1_hub_problem",
+    "state": "off",
+    "attributes": {
+      "device_class": "problem",
+      "friendly_name": "\uc608\ube44 Zigbee \ud5c8\ube0c \uc0c1\ud0dc"
+    },
+    "last_changed": "2026-03-03T08:17:38.562572+00:00",
+    "last_reported": "2026-03-03T08:17:38.562572+00:00",
+    "last_updated": "2026-03-03T08:17:38.562572+00:00",
+    "context": {
+      "id": "01KJSCCBR2YAPFR8H5FM0TTZQ8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.meorimat_jaesilsenseo_occupancy",
+    "state": "unavailable",
+    "attributes": {
+      "device_class": "occupancy",
+      "icon": "mdi:motion-sensor",
+      "friendly_name": "\uc548\ubc29 \uba38\ub9ac\ub9e1 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-02T21:03:23.689884+00:00",
+    "last_reported": "2026-03-03T09:01:15.705679+00:00",
+    "last_updated": "2026-03-03T09:01:15.705679+00:00",
+    "context": {
+      "id": "01KJSEW7HSD9DDKB5K8918RCSS",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.hwajangsil_doeosenseo_battery",
+    "state": "100.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "icon": "mdi:battery",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \ubc30\ud130\ub9ac"
+    },
+    "last_changed": "2026-03-03T08:17:38.592237+00:00",
+    "last_reported": "2026-03-03T08:17:38.592237+00:00",
+    "last_updated": "2026-03-03T08:17:38.592237+00:00",
+    "context": {
+      "id": "01KJSCCBS0418ZTM6G56Y4997F",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_onseubdosenseo_temperature",
+    "state": "18.5",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "\u00b0C",
+      "device_class": "temperature",
+      "icon": "mdi:thermometer",
+      "friendly_name": "\uc548\ubc29 \uc628\ub3c4"
+    },
+    "last_changed": "2026-03-03T08:17:38.592762+00:00",
+    "last_reported": "2026-03-03T08:17:38.592762+00:00",
+    "last_updated": "2026-03-03T08:17:38.592762+00:00",
+    "context": {
+      "id": "01KJSCCBS0QNV0FW7CNNJSVXVJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_onseubdosenseo_humidity",
+    "state": "50.3",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "humidity",
+      "icon": "mdi:water-percent",
+      "friendly_name": "\uc548\ubc29 \uc2b5\ub3c4"
+    },
+    "last_changed": "2026-03-03T09:56:01.889440+00:00",
+    "last_reported": "2026-03-03T09:56:01.889440+00:00",
+    "last_updated": "2026-03-03T09:56:01.889440+00:00",
+    "context": {
+      "id": "01KJSJ0GQ1FCKPW2CQMHVV0RCF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_onseubdosenseo_battery",
+    "state": "75.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "icon": "mdi:battery",
+      "friendly_name": "\uc548\ubc29 \uc628\uc2b5\ub3c4\uc13c\uc11c \ubc30\ud130\ub9ac"
+    },
+    "last_changed": "2026-03-03T08:17:38.593131+00:00",
+    "last_reported": "2026-03-03T08:17:38.593131+00:00",
+    "last_updated": "2026-03-03T08:17:38.593131+00:00",
+    "context": {
+      "id": "01KJSCCBS1J8KFZRAFEA8Q18GD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.osbang_onseubdosenseo_humidity",
+    "state": "48.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "humidity",
+      "icon": "mdi:water-percent",
+      "friendly_name": "\uc637\ubc29 \uc2b5\ub3c4"
+    },
+    "last_changed": "2026-03-03T08:17:38.596642+00:00",
+    "last_reported": "2026-03-03T08:17:38.596642+00:00",
+    "last_updated": "2026-03-03T08:17:38.596642+00:00",
+    "context": {
+      "id": "01KJSCCBS45ZEKT7CD4VRS6GA8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.backups_stale",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Backups Stale",
+      "device_class": "problem"
+    },
+    "last_changed": "2026-03-02T21:03:29.155077+00:00",
+    "last_reported": "2026-03-02T21:03:29.155077+00:00",
+    "last_updated": "2026-03-02T21:03:29.155077+00:00",
+    "context": {
+      "id": "01KJR5SYC3TE02ZZ0TA9V41KPZ",
+      "parent_id": null,
+      "user_id": "2509f10e0e1c445b860fea1b6074863f"
+    }
+  },
+  {
+    "entity_id": "sensor.backup_state",
+    "state": "backed_up",
+    "attributes": {
+      "friendly_name": "Backup State",
+      "last_backup": "2026-03-02T20:52:54.928694+00:00",
+      "next_backup": "2026-03-09T20:52:54.928694+00:00",
+      "last_uploaded": "2026-03-02T20:52:54.928694+00:00",
+      "backups_in_google_drive": 4,
+      "backups_in_home_assistant": 4,
+      "size_in_google_drive": "77.3 MB",
+      "size_in_home_assistant": "77.3 MB",
+      "backups": [
+        {
+          "name": "Full Backup 2026-02-15 04:03:41",
+          "date": "2026-02-14T19:03:41.039717+00:00",
+          "state": "Backed Up",
+          "size": "16.6 MB",
+          "slug": "33a99117"
+        },
+        {
+          "name": "Full Backup 2026-02-22 04:03:41",
+          "date": "2026-02-21T19:03:41.559999+00:00",
+          "state": "Backed Up",
+          "size": "19.1 MB",
+          "slug": "b1ff3285"
+        },
+        {
+          "name": "Full Backup 2026-03-01 04:03:41",
+          "date": "2026-02-28T19:03:41.977286+00:00",
+          "state": "Backed Up",
+          "size": "21.9 MB",
+          "slug": "98e3dad0"
+        },
+        {
+          "name": "Automatic backup 2025.11.3",
+          "date": "2026-03-02T20:52:54.928694+00:00",
+          "state": "Backed Up",
+          "size": "19.8 MB",
+          "slug": "4cdf60e2"
+        }
+      ],
+      "free_space_in_google_drive": "2.0 TB"
+    },
+    "last_changed": "2026-03-02T21:03:39.202669+00:00",
+    "last_reported": "2026-03-02T21:03:39.202669+00:00",
+    "last_updated": "2026-03-02T21:03:39.202669+00:00",
+    "context": {
+      "id": "01KJR5T862214DM5PQ900TT8KT",
+      "parent_id": null,
+      "user_id": "2509f10e0e1c445b860fea1b6074863f"
+    }
+  },
+  {
+    "entity_id": "switch.anbang_desk_fan",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \ucc45\uc0c1 \uc120\ud48d\uae30"
+    },
+    "last_changed": "2026-03-03T08:17:38.606520+00:00",
+    "last_reported": "2026-03-03T08:17:38.606520+00:00",
+    "last_updated": "2026-03-03T08:17:38.606520+00:00",
+    "context": {
+      "id": "01KJSCCBSE60MMPRAJW1MY700B",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_desk_mic",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \ucc45\uc0c1 \ub9c8\uc774\ud06c"
+    },
+    "last_changed": "2026-03-03T08:17:38.606648+00:00",
+    "last_reported": "2026-03-03T08:17:38.606648+00:00",
+    "last_updated": "2026-03-03T08:17:38.606648+00:00",
+    "context": {
+      "id": "01KJSCCBSEQNZ6K3WFPNJAG3SK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_desk_speaker",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \ucc45\uc0c1 \uc2a4\ud53c\ucee4"
+    },
+    "last_changed": "2026-03-03T08:17:38.606763+00:00",
+    "last_reported": "2026-03-03T08:17:38.606763+00:00",
+    "last_updated": "2026-03-03T08:17:38.606763+00:00",
+    "context": {
+      "id": "01KJSCCBSETZZZ20JEEM78QZP8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_bedside_light",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \uce68\ub300\ubd88"
+    },
+    "last_changed": "2026-03-03T10:01:51.065853+00:00",
+    "last_reported": "2026-03-03T10:01:51.065853+00:00",
+    "last_updated": "2026-03-03T10:01:51.065853+00:00",
+    "context": {
+      "id": "01KJSJB50WMD2MZXGPJKK4M810",
+      "parent_id": null,
+      "user_id": "f2c07c1b16ba43ff834c34dba782872f"
+    }
+  },
+  {
+    "entity_id": "switch.anbang_bedside_fan",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \uce68\ub300 \uc120\ud48d\uae30"
+    },
+    "last_changed": "2026-03-03T08:17:38.602198+00:00",
+    "last_reported": "2026-03-03T08:17:38.602198+00:00",
+    "last_updated": "2026-03-03T08:17:38.602198+00:00",
+    "context": {
+      "id": "01KJSCCBSANRM79SXWEGVW3V9E",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_main_light",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \ucc9c\uc7a5\ub4f1"
+    },
+    "last_changed": "2026-03-03T09:41:15.928856+00:00",
+    "last_reported": "2026-03-03T09:41:15.928856+00:00",
+    "last_updated": "2026-03-03T09:41:15.928856+00:00",
+    "context": {
+      "id": "01KJSH5FGRAA98H6B6FZXXKMMH",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.jubang_hair_dryer",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc8fc\ubc29 \ub4dc\ub77c\uc774\uae30 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T08:17:38.604908+00:00",
+    "last_reported": "2026-03-03T08:17:38.604908+00:00",
+    "last_updated": "2026-03-03T08:17:38.604908+00:00",
+    "context": {
+      "id": "01KJSCCBSCBZ9NVGFZF1Y7A7DD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.jubang_main_light",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc8fc\ubc29 \ubd88"
+    },
+    "last_changed": "2026-03-03T08:17:38.606245+00:00",
+    "last_reported": "2026-03-03T08:17:38.606245+00:00",
+    "last_updated": "2026-03-03T08:17:38.606245+00:00",
+    "context": {
+      "id": "01KJSCCBSE8BQ8J8QSQKXH4EVK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "media_player.geosil_tv",
+    "state": "on",
+    "attributes": {
+      "volume_level": 0.1,
+      "is_volume_muted": false,
+      "friendly_name": "\uac70\uc2e4 TV",
+      "supported_features": 23997
+    },
+    "last_changed": "2026-03-03T09:28:32.134442+00:00",
+    "last_reported": "2026-03-03T09:28:32.134442+00:00",
+    "last_updated": "2026-03-03T09:28:32.134442+00:00",
+    "context": {
+      "id": "01KJSGE5M6S3X6GX7NN6WKBB7S",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.osbang_main_light",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc637\ubc29 \ubd88"
+    },
+    "last_changed": "2026-03-03T09:25:12.843930+00:00",
+    "last_reported": "2026-03-03T09:25:12.843930+00:00",
+    "last_updated": "2026-03-03T09:25:12.843930+00:00",
+    "context": {
+      "id": "01KJSG830BKRNDSFTEZN1Q6621",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.hwajangsil_door_contact",
+    "state": "on",
+    "attributes": {
+      "device_class": "door",
+      "icon": "mdi:door-closed",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \ub3c4\uc5b4 \uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T08:17:38.569924+00:00",
+    "last_reported": "2026-03-03T08:17:38.569924+00:00",
+    "last_updated": "2026-03-03T08:17:38.569924+00:00",
+    "context": {
+      "id": "01KJSCCBR9FWHNXA09AMCKSAJ1",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.anbang_presence",
+    "state": "on",
+    "attributes": {
+      "device_class": "occupancy",
+      "icon": "mdi:motion-sensor",
+      "friendly_name": "\uc548\ubc29 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T09:56:33.543418+00:00",
+    "last_reported": "2026-03-03T09:56:33.543418+00:00",
+    "last_updated": "2026-03-03T09:56:33.543418+00:00",
+    "context": {
+      "id": "01KJSJ1FM78M0BZGH254STY45A",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.geosil_presence",
+    "state": "on",
+    "attributes": {
+      "device_class": "occupancy",
+      "icon": "mdi:motion-sensor",
+      "friendly_name": "\uac70\uc2e4 \uc7ac\uc2e4 \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T10:01:07.944531+00:00",
+    "last_reported": "2026-03-03T10:01:07.944531+00:00",
+    "last_updated": "2026-03-03T10:01:07.944531+00:00",
+    "context": {
+      "id": "01KJSJ9VK8CTGDPBMSQF6FXVC2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.jubang_presence",
+    "state": "off",
+    "attributes": {
+      "device_class": "occupancy",
+      "icon": "mdi:motion-sensor",
+      "friendly_name": "\uc8fc\ubc29 \uc7ac\uc2e4 \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T09:41:17.550771+00:00",
+    "last_reported": "2026-03-03T09:41:17.550771+00:00",
+    "last_updated": "2026-03-03T09:41:17.550771+00:00",
+    "context": {
+      "id": "01KJSH5H3E48CJNK3PD7QCEF44",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.osbang_presence",
+    "state": "off",
+    "attributes": {
+      "device_class": "occupancy",
+      "icon": "mdi:motion-sensor",
+      "friendly_name": "\uc637\ubc29 \uc7ac\uc2e4 \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T09:25:12.238574+00:00",
+    "last_reported": "2026-03-03T09:25:12.238574+00:00",
+    "last_updated": "2026-03-03T09:25:12.238574+00:00",
+    "context": {
+      "id": "01KJSG82DEZWQDBDR27KRFY2ZV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.hwajangsil_presence",
+    "state": "off",
+    "attributes": {
+      "device_class": "occupancy",
+      "icon": "mdi:motion-sensor",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \uc7ac\uc2e4 \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T09:41:19.509134+00:00",
+    "last_reported": "2026-03-03T09:41:19.509134+00:00",
+    "last_updated": "2026-03-03T09:41:19.509134+00:00",
+    "context": {
+      "id": "01KJSH5K0NAPRXR98XAF7B4S3D",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.hyeongwan_door_tamper",
+    "state": "off",
+    "attributes": {
+      "device_class": "tamper",
+      "friendly_name": "\ud604\uad00 \ubb38 Tamper"
+    },
+    "last_changed": "2026-03-03T08:17:38.570978+00:00",
+    "last_reported": "2026-03-03T08:17:38.570978+00:00",
+    "last_updated": "2026-03-03T08:17:38.570978+00:00",
+    "context": {
+      "id": "01KJSCCBRAQ2HCSTRFVY7ZDRXH",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_bedside_presence_switch",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \uba38\ub9ac\ub9e1 \uc7ac\uc2e4 \uc2a4\uc704\uce58"
+    },
+    "last_changed": "2026-03-03T08:17:38.602075+00:00",
+    "last_reported": "2026-03-03T08:17:38.602075+00:00",
+    "last_updated": "2026-03-03T08:17:38.602075+00:00",
+    "context": {
+      "id": "01KJSCCBSA3CXGG9XH99Y0TC3T",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.jubang_presence_switch",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc8fc\ubc29 \uc7ac\uc2e4 \uc2a4\uc704\uce58"
+    },
+    "last_changed": "2026-03-03T08:17:38.602432+00:00",
+    "last_reported": "2026-03-03T08:17:38.602432+00:00",
+    "last_updated": "2026-03-03T08:17:38.602432+00:00",
+    "context": {
+      "id": "01KJSCCBSAD3Q81HW52QPV8ZMR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.jubang_multitab_unused1",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc8fc\ubc29 \uba40\ud2f0\ud0ed \ubbf8\uc0ac\uc6a91"
+    },
+    "last_changed": "2026-03-03T08:17:38.602317+00:00",
+    "last_reported": "2026-03-03T08:17:38.602317+00:00",
+    "last_updated": "2026-03-03T08:17:38.602317+00:00",
+    "context": {
+      "id": "01KJSCCBSAYC4RFQSFQYB506RK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.jubang_ac_remote_hub",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "icon": "mdi:power-plug",
+      "friendly_name": "\uc8fc\ubc29 \uc5d0\uc5b4\ucee8 IR \ud5c8\ube0c"
+    },
+    "last_changed": "2026-03-03T09:28:32.142424+00:00",
+    "last_reported": "2026-03-03T09:28:32.142424+00:00",
+    "last_updated": "2026-03-03T09:28:32.142424+00:00",
+    "context": {
+      "id": "01KJSGE5MEAPSPQTBEZJFH0ND5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.jubang_ac_heating_plug",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \ud788\ud130 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T08:17:38.605724+00:00",
+    "last_reported": "2026-03-03T08:35:30.942677+00:00",
+    "last_updated": "2026-03-03T08:35:30.942677+00:00",
+    "context": {
+      "id": "01KJSDD2ZY0JS96B58W2897C31",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_ac_heating_current",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "A",
+      "device_class": "current",
+      "icon": "mdi:current-ac",
+      "friendly_name": "\uc548\ubc29 \ud788\ud130 \uc804\ub958"
+    },
+    "last_changed": "2026-03-03T08:17:38.597059+00:00",
+    "last_reported": "2026-03-03T08:35:30.952046+00:00",
+    "last_updated": "2026-03-03T08:35:30.952046+00:00",
+    "context": {
+      "id": "01KJSDD30879Z59AET36PA2A9H",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_ac_heating_power",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "icon": "mdi:flash",
+      "friendly_name": "\uc548\ubc29 \ud788\ud130 \uc804\ub825"
+    },
+    "last_changed": "2026-03-03T08:17:38.597208+00:00",
+    "last_reported": "2026-03-03T08:35:30.965326+00:00",
+    "last_updated": "2026-03-03T08:35:30.965326+00:00",
+    "context": {
+      "id": "01KJSDD30NHZF59EP20JPGWBDB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_ac_heating_voltage",
+    "state": "228.7",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "V",
+      "device_class": "voltage",
+      "icon": "mdi:sine-wave",
+      "friendly_name": "\uc548\ubc29 \ud788\ud130 \uc804\uc555"
+    },
+    "last_changed": "2026-03-03T08:17:38.597405+00:00",
+    "last_reported": "2026-03-03T08:35:31.074772+00:00",
+    "last_updated": "2026-03-03T08:35:31.074772+00:00",
+    "context": {
+      "id": "01KJSDD342PBRHFQM761YN3QE2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_ac_heating_total_energy",
+    "state": "0.001",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "icon": "mdi:lightning-bolt",
+      "friendly_name": "\uc548\ubc29 \ud788\ud130 \ucd1d \uc5d0\ub108\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:51:51.970475+00:00",
+    "last_reported": "2026-03-03T08:51:51.970475+00:00",
+    "last_updated": "2026-03-03T08:51:51.970475+00:00",
+    "context": {
+      "id": "01KJSEB112N47Y2KXHM6ZBZR81",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_humidifier_current",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "A",
+      "device_class": "current",
+      "icon": "mdi:current-ac",
+      "friendly_name": "\uc548\ubc29 \uac00\uc2b5\uae30 \ud50c\ub7ec\uadf8 \uc804\ub958"
+    },
+    "last_changed": "2026-03-03T08:17:38.597944+00:00",
+    "last_reported": "2026-03-03T08:17:38.597944+00:00",
+    "last_updated": "2026-03-03T08:17:38.597944+00:00",
+    "context": {
+      "id": "01KJSCCBS5HK45DHSB66VH1NXJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_humidifier_power",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "icon": "mdi:flash",
+      "friendly_name": "\uc548\ubc29 \uac00\uc2b5\uae30 \ud50c\ub7ec\uadf8 \uc804\ub825"
+    },
+    "last_changed": "2026-03-03T08:17:38.598104+00:00",
+    "last_reported": "2026-03-03T08:17:38.598104+00:00",
+    "last_updated": "2026-03-03T08:17:38.598104+00:00",
+    "context": {
+      "id": "01KJSCCBS6154Y63HH3C65Q771",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_humidifier_voltage",
+    "state": "226.4",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "V",
+      "device_class": "voltage",
+      "icon": "mdi:sine-wave",
+      "friendly_name": "\uc548\ubc29 \uac00\uc2b5\uae30 \ud50c\ub7ec\uadf8 \uc804\uc555"
+    },
+    "last_changed": "2026-03-03T09:07:21.169499+00:00",
+    "last_reported": "2026-03-03T09:07:21.169499+00:00",
+    "last_updated": "2026-03-03T09:07:21.169499+00:00",
+    "context": {
+      "id": "01KJSF7CEHYJENJY2QESAPSJ1W",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_humidifier_total_energy",
+    "state": "0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "icon": "mdi:lightning-bolt",
+      "friendly_name": "\uc548\ubc29 \uac00\uc2b5\uae30 \ud50c\ub7ec\uadf8 \ucd1d \uc5d0\ub108\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.598405+00:00",
+    "last_reported": "2026-03-03T08:17:38.598405+00:00",
+    "last_updated": "2026-03-03T08:17:38.598405+00:00",
+    "context": {
+      "id": "01KJSCCBS6ZZDHA9CNG572CBT4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.geosil_tv_illuminance",
+    "state": "188",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "lx",
+      "device_class": "illuminance",
+      "icon": "mdi:brightness-5",
+      "friendly_name": "\uac70\uc2e4 TV \uc870\ub3c4"
+    },
+    "last_changed": "2026-03-03T09:41:24.294756+00:00",
+    "last_reported": "2026-03-03T09:41:24.294756+00:00",
+    "last_updated": "2026-03-03T09:41:24.294756+00:00",
+    "context": {
+      "id": "01KJSH5QP6ZBMJNPCCX645EC42",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.geosil_tv_brightness",
+    "state": "3",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "level",
+      "icon": "mdi:brightness-6",
+      "friendly_name": "\uac70\uc2e4 TV \ubc1d\uae30"
+    },
+    "last_changed": "2026-03-03T09:41:24.269372+00:00",
+    "last_reported": "2026-03-03T09:41:24.269372+00:00",
+    "last_updated": "2026-03-03T09:41:24.269372+00:00",
+    "context": {
+      "id": "01KJSH5QNDB8FB4Z45J80DXF16",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.hyeongwan_outing_plug",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\ud604\uad00 \uc678\ucd9c \uac00\uc0c1 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T08:17:38.601634+00:00",
+    "last_reported": "2026-03-03T08:17:38.601634+00:00",
+    "last_updated": "2026-03-03T08:17:38.601634+00:00",
+    "context": {
+      "id": "01KJSCCBS9WNBW94V7B0WX1TP7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.hyeongwan_outing2_plug",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\ud604\uad00 \uc678\ucd9c2 \uac00\uc0c1 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T08:17:38.601779+00:00",
+    "last_reported": "2026-03-03T08:17:38.601779+00:00",
+    "last_updated": "2026-03-03T08:17:38.601779+00:00",
+    "context": {
+      "id": "01KJSCCBS9DYM23B2RRCR6PQQ7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_bedtime_plug",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \ucde8\uce68 \uac00\uc0c1 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T08:17:38.602681+00:00",
+    "last_reported": "2026-03-03T08:17:38.602681+00:00",
+    "last_updated": "2026-03-03T08:17:38.602681+00:00",
+    "context": {
+      "id": "01KJSCCBSA5DJHSPS2RSAVFJ1E",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_goodnight_plug",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \uad7f\ub098\uc787 \uac00\uc0c1 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T08:17:38.602888+00:00",
+    "last_reported": "2026-03-03T08:17:38.602888+00:00",
+    "last_updated": "2026-03-03T08:17:38.602888+00:00",
+    "context": {
+      "id": "01KJSCCBSAK5JBZ56K2223FCRG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.osbang_jaesilsenseo_near_detection",
+    "state": "1.5",
+    "attributes": {
+      "min": 0.0,
+      "max": 8.25,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc637\ubc29 \uadfc\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.579050+00:00",
+    "last_reported": "2026-03-03T08:17:38.579050+00:00",
+    "last_updated": "2026-03-03T08:17:38.579050+00:00",
+    "context": {
+      "id": "01KJSCCBRK800TZHXREQT6CKSB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.osbang_jaesilsenseo_far_detection",
+    "state": "4.5",
+    "attributes": {
+      "min": 0.75,
+      "max": 9.0,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc637\ubc29 \uc6d0\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.579266+00:00",
+    "last_reported": "2026-03-03T08:17:38.579266+00:00",
+    "last_updated": "2026-03-03T08:17:38.579266+00:00",
+    "context": {
+      "id": "01KJSCCBRKVD13XCZJ15F4NW09",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.osbang_jaesilsenseo_closest_target_distance",
+    "state": "0.0",
+    "attributes": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 0.1,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc637\ubc29 Closest target distance"
+    },
+    "last_changed": "2026-03-03T09:25:12.670442+00:00",
+    "last_reported": "2026-03-03T09:25:12.670442+00:00",
+    "last_updated": "2026-03-03T09:25:12.670442+00:00",
+    "context": {
+      "id": "01KJSG82TYQJV9MK3XJMGVZSV7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.geosil_jaesilsenseo_sensitivity",
+    "state": "5.0",
+    "attributes": {
+      "min": 1.0,
+      "max": 10.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "",
+      "friendly_name": "\uac70\uc2e4 \uac10\ub3c4"
+    },
+    "last_changed": "2026-03-03T08:17:38.579758+00:00",
+    "last_reported": "2026-03-03T08:17:38.579758+00:00",
+    "last_updated": "2026-03-03T08:17:38.579758+00:00",
+    "context": {
+      "id": "01KJSCCBRKNMJG63Q0RYDFF3WC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.geosil_jaesilsenseo_near_detection",
+    "state": "1.5",
+    "attributes": {
+      "min": 0.0,
+      "max": 8.25,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uac70\uc2e4 \uadfc\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.579922+00:00",
+    "last_reported": "2026-03-03T08:17:38.579922+00:00",
+    "last_updated": "2026-03-03T08:17:38.579922+00:00",
+    "context": {
+      "id": "01KJSCCBRKKJWKG3Q1PDRYN53W",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.geosil_jaesilsenseo_far_detection",
+    "state": "6.75",
+    "attributes": {
+      "min": 0.75,
+      "max": 9.0,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uac70\uc2e4 \uc6d0\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.580077+00:00",
+    "last_reported": "2026-03-03T08:17:38.580077+00:00",
+    "last_updated": "2026-03-03T08:17:38.580077+00:00",
+    "context": {
+      "id": "01KJSCCBRM12EVBGS5QAKV7BHK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.geosil_jaesilsenseo_closest_target_distance",
+    "state": "2.7",
+    "attributes": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 0.1,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uac70\uc2e4 Closest target distance"
+    },
+    "last_changed": "2026-03-03T10:03:05.151366+00:00",
+    "last_reported": "2026-03-03T10:03:05.151366+00:00",
+    "last_updated": "2026-03-03T10:03:05.151366+00:00",
+    "context": {
+      "id": "01KJSJDE1Z9ZPD8CVQ2A4100DR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.hwajangsil_jaesilsenseo_sensitivity",
+    "state": "10.0",
+    "attributes": {
+      "min": 1.0,
+      "max": 10.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \uac10\ub3c4"
+    },
+    "last_changed": "2026-03-03T08:17:38.580391+00:00",
+    "last_reported": "2026-03-03T08:17:38.580391+00:00",
+    "last_updated": "2026-03-03T08:17:38.580391+00:00",
+    "context": {
+      "id": "01KJSCCBRMA1R02HSH6KWCPXS4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.hwajangsil_jaesilsenseo_near_detection",
+    "state": "3.0",
+    "attributes": {
+      "min": 0.0,
+      "max": 8.25,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \uadfc\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.580552+00:00",
+    "last_reported": "2026-03-03T08:17:38.580552+00:00",
+    "last_updated": "2026-03-03T08:17:38.580552+00:00",
+    "context": {
+      "id": "01KJSCCBRMET6YJ3A3C88ZPKJ9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.hwajangsil_jaesilsenseo_far_detection",
+    "state": "6.75",
+    "attributes": {
+      "min": 0.75,
+      "max": 9.0,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \uc6d0\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.580719+00:00",
+    "last_reported": "2026-03-03T08:17:38.580719+00:00",
+    "last_updated": "2026-03-03T08:17:38.580719+00:00",
+    "context": {
+      "id": "01KJSCCBRM58S19MC4NVH1X6HK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.hwajangsil_jaesilsenseo_closest_target_distance",
+    "state": "0.0",
+    "attributes": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 0.1,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\ud654\uc7a5\uc2e4 Closest target distance"
+    },
+    "last_changed": "2026-03-03T09:41:31.274852+00:00",
+    "last_reported": "2026-03-03T09:41:31.274852+00:00",
+    "last_updated": "2026-03-03T09:41:31.274852+00:00",
+    "context": {
+      "id": "01KJSH5YGAYN8N6NDJEN9T505G",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.anbang_jaesilsenseo_sensitivity",
+    "state": "10.0",
+    "attributes": {
+      "min": 1.0,
+      "max": 10.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "",
+      "friendly_name": "\uc548\ubc29 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T08:17:38.581131+00:00",
+    "last_reported": "2026-03-03T09:01:15.647218+00:00",
+    "last_updated": "2026-03-03T09:01:15.647218+00:00",
+    "context": {
+      "id": "01KJSEW7FZG50ZANMT598SHHXD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.anbang_jaesilsenseo_near_detection",
+    "state": "3.0",
+    "attributes": {
+      "min": 0.0,
+      "max": 8.25,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc548\ubc29 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T08:17:38.581300+00:00",
+    "last_reported": "2026-03-03T09:01:15.658397+00:00",
+    "last_updated": "2026-03-03T09:01:15.658397+00:00",
+    "context": {
+      "id": "01KJSEW7GAMCRTACFT909KBM5S",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.anbang_jaesilsenseo_far_detection",
+    "state": "3.0",
+    "attributes": {
+      "min": 0.75,
+      "max": 9.0,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc548\ubc29 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T08:17:38.581442+00:00",
+    "last_reported": "2026-03-03T09:01:15.669717+00:00",
+    "last_updated": "2026-03-03T09:01:15.669717+00:00",
+    "context": {
+      "id": "01KJSEW7GN752X7015TZT10VBR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.anbang_jaesilsenseo_closest_target_distance",
+    "state": "2.8",
+    "attributes": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 0.1,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc548\ubc29 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T10:03:07.479129+00:00",
+    "last_reported": "2026-03-03T10:03:07.479129+00:00",
+    "last_updated": "2026-03-03T10:03:07.479129+00:00",
+    "context": {
+      "id": "01KJSJDGAQZPKNNNNQCR7Z7D2F",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.anbang_bedside_presence_sensitivity",
+    "state": "unavailable",
+    "attributes": {
+      "min": 1.0,
+      "max": 10.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "",
+      "friendly_name": "\uc548\ubc29 \uba38\ub9ac\ub9e1 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T07:39:40.452709+00:00",
+    "last_reported": "2026-03-03T09:01:15.716071+00:00",
+    "last_updated": "2026-03-03T09:01:15.716071+00:00",
+    "context": {
+      "id": "01KJSEW7J4DE4D5QSAVK9HHA11",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.anbang_bedside_presence_near_detection",
+    "state": "unavailable",
+    "attributes": {
+      "min": 0.0,
+      "max": 8.25,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc548\ubc29 \uba38\ub9ac\ub9e1 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T07:39:40.452854+00:00",
+    "last_reported": "2026-03-03T09:01:15.721063+00:00",
+    "last_updated": "2026-03-03T09:01:15.721063+00:00",
+    "context": {
+      "id": "01KJSEW7J90B7HP0GZH9CCSHRA",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.anbang_bedside_presence_far_detection",
+    "state": "unavailable",
+    "attributes": {
+      "min": 0.75,
+      "max": 9.0,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc548\ubc29 \uba38\ub9ac\ub9e1 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T07:39:40.452991+00:00",
+    "last_reported": "2026-03-03T09:01:15.727844+00:00",
+    "last_updated": "2026-03-03T09:01:15.727844+00:00",
+    "context": {
+      "id": "01KJSEW7JF8F4DM01Q578JAKQ2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.meorimat_jaesilsenseo_closest_target_distance",
+    "state": "unavailable",
+    "attributes": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 0.1,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc548\ubc29 \uba38\ub9ac\ub9e1 \uc7ac\uc2e4\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T07:39:40.453123+00:00",
+    "last_reported": "2026-03-03T09:01:15.710937+00:00",
+    "last_updated": "2026-03-03T09:01:15.710937+00:00",
+    "context": {
+      "id": "01KJSEW7HY8TCRSJ58Z5HG0GG5",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.jubang_presence_sensitivity",
+    "state": "1.0",
+    "attributes": {
+      "min": 1.0,
+      "max": 10.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "",
+      "friendly_name": "\uc8fc\ubc29 \uc7ac\uc2e4 \uac10\ub3c4"
+    },
+    "last_changed": "2026-03-03T08:17:38.582239+00:00",
+    "last_reported": "2026-03-03T08:17:38.582239+00:00",
+    "last_updated": "2026-03-03T08:17:38.582239+00:00",
+    "context": {
+      "id": "01KJSCCBRP80CRS2AGHMNRXBAM",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.jubang_presence_near_detection",
+    "state": "0.75",
+    "attributes": {
+      "min": 0.0,
+      "max": 8.25,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc8fc\ubc29 \uc7ac\uc2e4 \uadfc\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.582369+00:00",
+    "last_reported": "2026-03-03T08:17:38.582369+00:00",
+    "last_updated": "2026-03-03T08:17:38.582369+00:00",
+    "context": {
+      "id": "01KJSCCBRP0AH2W3D6ZAD8AXDD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.jubang_presence_far_detection",
+    "state": "1.5",
+    "attributes": {
+      "min": 0.75,
+      "max": 9.0,
+      "step": 0.75,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc8fc\ubc29 \uc7ac\uc2e4 \uc6d0\uac70\ub9ac \uac10\uc9c0"
+    },
+    "last_changed": "2026-03-03T08:17:38.582499+00:00",
+    "last_reported": "2026-03-03T08:17:38.582499+00:00",
+    "last_updated": "2026-03-03T08:17:38.582499+00:00",
+    "context": {
+      "id": "01KJSCCBRPCSN98XMNT21Y8BNF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.anbang_bedside_presence",
+    "state": "off",
+    "attributes": {
+      "device_class": "occupancy",
+      "icon": "mdi:motion-sensor",
+      "friendly_name": "\uc548\ubc29 \uc6d0 \uc9c4\ub3d9\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T08:17:38.571720+00:00",
+    "last_reported": "2026-03-03T09:01:15.496178+00:00",
+    "last_updated": "2026-03-03T09:01:15.496178+00:00",
+    "context": {
+      "id": "01KJSEW7B8QFZMFJHJJ2Q460TY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "scene.anbangjomyeong_100peo",
+    "state": "2026-03-02T19:07:28.071690+00:00",
+    "attributes": {
+      "friendly_name": "\uc548\ubc29 \uc870\uba85 100\ud37c"
+    },
+    "last_changed": "2026-03-03T08:17:39.037207+00:00",
+    "last_reported": "2026-03-03T08:17:39.037207+00:00",
+    "last_updated": "2026-03-03T08:17:39.037207+00:00",
+    "context": {
+      "id": "01KJSCCC6XD7E01024H9P8E2HA",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "scene.anbangjomyeong_1peo",
+    "state": "2026-03-02T19:07:22.739390+00:00",
+    "attributes": {
+      "friendly_name": "\uc548\ubc29 \uc870\uba85 1\ud37c"
+    },
+    "last_changed": "2026-03-03T08:17:39.040460+00:00",
+    "last_reported": "2026-03-03T08:17:39.040460+00:00",
+    "last_updated": "2026-03-03T08:17:39.040460+00:00",
+    "context": {
+      "id": "01KJSCCC70WREK1X3JFG7MSC71",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "light.anbang_stand_lighting",
+    "state": "on",
+    "attributes": {
+      "min_color_temp_kelvin": 2000,
+      "max_color_temp_kelvin": 6500,
+      "min_mireds": 153,
+      "max_mireds": 500,
+      "supported_color_modes": [
+        "color_temp",
+        "hs"
+      ],
+      "color_mode": "color_temp",
+      "brightness": 254,
+      "color_temp_kelvin": 5696,
+      "color_temp": 175,
+      "hs_color": [
+        28.661,
+        10.529
+      ],
+      "rgb_color": [
+        255,
+        241,
+        228
+      ],
+      "xy_color": [
+        0.348,
+        0.341
+      ],
+      "friendly_name": "\uc548\ubc29 \uc2a4\ud0e0\ub4dc \uc870\uba85",
+      "supported_features": 0
+    },
+    "last_changed": "2026-03-03T09:49:28.739432+00:00",
+    "last_reported": "2026-03-03T09:49:28.739432+00:00",
+    "last_updated": "2026-03-03T09:49:28.739432+00:00",
+    "context": {
+      "id": "01KJSHMGS3B1B34J4QV3W4BRH3",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "cover.anbang_curtain",
+    "state": "closed",
+    "attributes": {
+      "current_position": 0,
+      "device_class": "curtain",
+      "friendly_name": "\uc548\ubc29 \ucee4\ud2bc",
+      "supported_features": 15
+    },
+    "last_changed": "2026-03-03T09:49:28.752612+00:00",
+    "last_reported": "2026-03-03T09:49:28.752612+00:00",
+    "last_updated": "2026-03-03T09:49:28.752612+00:00",
+    "context": {
+      "id": "01KJSHMGSGJWXP8NMJ3CSR764C",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_humidifier",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \uac00\uc2b5\uae30 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T09:49:28.790002+00:00",
+    "last_reported": "2026-03-03T09:49:28.790002+00:00",
+    "last_updated": "2026-03-03T09:49:28.790002+00:00",
+    "context": {
+      "id": "01KJSHMGTPH2YZY1ZQEGEQMHMX",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.anbang_electric_blanket",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc548\ubc29 \uc804\uae30\uc7a5\ud310 \ud50c\ub7ec\uadf8"
+    },
+    "last_changed": "2026-03-03T09:49:28.859058+00:00",
+    "last_reported": "2026-03-03T09:49:28.859058+00:00",
+    "last_updated": "2026-03-03T09:49:28.859058+00:00",
+    "context": {
+      "id": "01KJSHMGWV8FE3QZPWRGPEQB66",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_electric_blanket_current",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "A",
+      "device_class": "current",
+      "icon": "mdi:current-ac",
+      "friendly_name": "\uc548\ubc29 \uc804\uae30\uc7a5\ud310 \ud50c\ub7ec\uadf8 \uc804\ub958"
+    },
+    "last_changed": "2026-03-03T09:49:28.866827+00:00",
+    "last_reported": "2026-03-03T09:49:28.866827+00:00",
+    "last_updated": "2026-03-03T09:49:28.866827+00:00",
+    "context": {
+      "id": "01KJSHMGX2H2X018RFRQ0N8VXC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_electric_blanket_power",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "icon": "mdi:flash",
+      "friendly_name": "\uc548\ubc29 \uc804\uae30\uc7a5\ud310 \ud50c\ub7ec\uadf8 \uc804\ub825"
+    },
+    "last_changed": "2026-03-03T09:49:28.872489+00:00",
+    "last_reported": "2026-03-03T09:49:28.872489+00:00",
+    "last_updated": "2026-03-03T09:49:28.872489+00:00",
+    "context": {
+      "id": "01KJSHMGX8CA6Q78VC7PGF1RK7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_electric_blanket_voltage",
+    "state": "230.4",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "V",
+      "device_class": "voltage",
+      "icon": "mdi:sine-wave",
+      "friendly_name": "\uc548\ubc29 \uc804\uae30\uc7a5\ud310 \ud50c\ub7ec\uadf8 \uc804\uc555"
+    },
+    "last_changed": "2026-03-03T09:49:28.880088+00:00",
+    "last_reported": "2026-03-03T09:49:28.880088+00:00",
+    "last_updated": "2026-03-03T09:49:28.880088+00:00",
+    "context": {
+      "id": "01KJSHMGXGF19QNENHXEMEBHR7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.anbang_electric_blanket_total_energy",
+    "state": "0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "icon": "mdi:lightning-bolt",
+      "friendly_name": "\uc548\ubc29 \uc804\uae30\uc7a5\ud310 \ud50c\ub7ec\uadf8 \ucd1d \uc5d0\ub108\uc9c0"
+    },
+    "last_changed": "2026-03-03T09:49:28.894981+00:00",
+    "last_reported": "2026-03-03T09:49:28.894981+00:00",
+    "last_updated": "2026-03-03T09:49:28.894981+00:00",
+    "context": {
+      "id": "01KJSHMGXYT8D5ZK4WZH56CVDQ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "climate.anbang_heater",
+    "state": "off",
+    "attributes": {
+      "hvac_modes": [
+        "off",
+        "heat"
+      ],
+      "min_temp": 18.0,
+      "max_temp": 38.0,
+      "target_temp_step": 1.0,
+      "current_temperature": null,
+      "temperature": 30.0,
+      "friendly_name": "\uc548\ubc29 \ud788\ud130",
+      "supported_features": 385
+    },
+    "last_changed": "2026-03-03T09:49:28.930465+00:00",
+    "last_reported": "2026-03-03T09:49:28.930465+00:00",
+    "last_updated": "2026-03-03T09:49:28.930465+00:00",
+    "context": {
+      "id": "01KJSHMGZ25TYDSV8ANKTXSF43",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.geosil_lighting",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uac70\uc2e4 \uc870\uba85"
+    },
+    "last_changed": "2026-03-03T09:49:28.943353+00:00",
+    "last_reported": "2026-03-03T09:49:28.943353+00:00",
+    "last_updated": "2026-03-03T09:49:28.943353+00:00",
+    "context": {
+      "id": "01KJSHMGZFKF8EMDVEZYC2GJP0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "light.geosil_stand_lighting",
+    "state": "on",
+    "attributes": {
+      "min_color_temp_kelvin": 2000,
+      "max_color_temp_kelvin": 6500,
+      "min_mireds": 153,
+      "max_mireds": 500,
+      "supported_color_modes": [
+        "color_temp",
+        "hs"
+      ],
+      "color_mode": "color_temp",
+      "brightness": 255,
+      "color_temp_kelvin": 2525,
+      "color_temp": 396,
+      "hs_color": [
+        28.809,
+        71.624
+      ],
+      "rgb_color": [
+        255,
+        160,
+        72
+      ],
+      "xy_color": [
+        0.544,
+        0.389
+      ],
+      "friendly_name": "\uac70\uc2e4 \uc2a4\ud0e0\ub4dc \uc870\uba85",
+      "supported_features": 0
+    },
+    "last_changed": "2026-03-03T09:49:28.961998+00:00",
+    "last_reported": "2026-03-03T09:53:13.624860+00:00",
+    "last_updated": "2026-03-03T09:53:13.624860+00:00",
+    "context": {
+      "id": "01KJSHVCCRP3R1X8WBZ4P03T4F",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "light.geosil_curtain_lighting",
+    "state": "unavailable",
+    "attributes": {
+      "supported_color_modes": [
+        "hs",
+        "white"
+      ],
+      "friendly_name": "\uac70\uc2e4 \ucee4\ud2bc \ub77c\uc778 \uc870\uba85",
+      "supported_features": 0
+    },
+    "last_changed": "2026-03-03T10:01:32.619950+00:00",
+    "last_reported": "2026-03-03T10:01:32.619950+00:00",
+    "last_updated": "2026-03-03T10:01:32.619950+00:00",
+    "context": {
+      "id": "01KJSJAKPB35AWMGZJTBXDKMKQ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.geosil_curtain_lighting_plug",
+    "state": "on",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uac70\uc2e4 \ucee4\ud2bc \ub77c\uc778 \uc870\uba85 \uc2a4\uc704\uce58"
+    },
+    "last_changed": "2026-03-03T09:49:28.997295+00:00",
+    "last_reported": "2026-03-03T09:49:28.997295+00:00",
+    "last_updated": "2026-03-03T09:49:28.997295+00:00",
+    "context": {
+      "id": "01KJSHMH15W3MTY30T730E3N89",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.geosil_curtain_lighting_plug_current",
+    "state": "0.079",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "A",
+      "device_class": "current",
+      "icon": "mdi:current-ac",
+      "friendly_name": "\uac70\uc2e4 \ucee4\ud2bc \ub77c\uc778 \uc870\uba85 \uc2a4\uc704\uce58 \uc804\ub958"
+    },
+    "last_changed": "2026-03-03T09:49:29.018771+00:00",
+    "last_reported": "2026-03-03T09:49:29.018771+00:00",
+    "last_updated": "2026-03-03T09:49:29.018771+00:00",
+    "context": {
+      "id": "01KJSHMH1TEZXZJ4H06F9MWF44",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.geosil_curtain_lighting_plug_power",
+    "state": "9.8",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "icon": "mdi:flash",
+      "friendly_name": "\uac70\uc2e4 \ucee4\ud2bc \ub77c\uc778 \uc870\uba85 \uc2a4\uc704\uce58 \uc804\ub825"
+    },
+    "last_changed": "2026-03-03T09:49:29.060070+00:00",
+    "last_reported": "2026-03-03T09:49:29.060070+00:00",
+    "last_updated": "2026-03-03T09:49:29.060070+00:00",
+    "context": {
+      "id": "01KJSHMH34J9QJZVRRV43H21DF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.geosil_curtain_lighting_plug_voltage",
+    "state": "217.5",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "V",
+      "device_class": "voltage",
+      "icon": "mdi:sine-wave",
+      "friendly_name": "\uac70\uc2e4 \ucee4\ud2bc \ub77c\uc778 \uc870\uba85 \uc2a4\uc704\uce58 \uc804\uc555"
+    },
+    "last_changed": "2026-03-03T09:49:29.068490+00:00",
+    "last_reported": "2026-03-03T09:49:29.068490+00:00",
+    "last_updated": "2026-03-03T09:49:29.068490+00:00",
+    "context": {
+      "id": "01KJSHMH3CX2RXTCHAAF0857BZ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.geosil_curtain_lighting_plug_total_energy",
+    "state": "0.014",
+    "attributes": {
+      "state_class": "total_increasing",
+      "icon": "mdi:lightning-bolt",
+      "friendly_name": "\uac70\uc2e4 \ucee4\ud2bc \ub77c\uc778 \uc870\uba85 \uc2a4\uc704\uce58 \ucd1d \uc5d0\ub108\uc9c0"
+    },
+    "last_changed": "2026-03-03T09:49:29.076526+00:00",
+    "last_reported": "2026-03-03T09:49:29.076526+00:00",
+    "last_updated": "2026-03-03T09:49:29.076526+00:00",
+    "context": {
+      "id": "01KJSHMH3MJKM3D1CC99KSRV1B",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.hwajangsil_lighting",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \ubd88"
+    },
+    "last_changed": "2026-03-03T09:49:29.087186+00:00",
+    "last_reported": "2026-03-03T09:49:29.087186+00:00",
+    "last_updated": "2026-03-03T09:49:29.087186+00:00",
+    "context": {
+      "id": "01KJSHMH3Z3R8GVQVB31DN6VJ4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.hwajangsil_lighting_fan",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\ud654\uc7a5\uc2e4 \ud658\ud48d\uae30"
+    },
+    "last_changed": "2026-03-03T09:49:29.099643+00:00",
+    "last_reported": "2026-03-03T09:49:29.099643+00:00",
+    "last_updated": "2026-03-03T09:49:29.099643+00:00",
+    "context": {
+      "id": "01KJSHMH4BN2H161EQJ9P9VGS2",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.hwajangsil_virtual",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "\ud654\uc7a5\uc2e4 \uac00\uc0c1\uc2a4\uc704\uce58"
+    },
+    "last_changed": "2026-03-03T09:49:29.121133+00:00",
+    "last_reported": "2026-03-03T09:49:29.121133+00:00",
+    "last_updated": "2026-03-03T09:49:29.121133+00:00",
+    "context": {
+      "id": "01KJSHMH51WJ2M496V408JTBJY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.osbang_presence",
+    "state": "2.0",
+    "attributes": {
+      "min": 1.0,
+      "max": 10.0,
+      "step": 1.0,
+      "mode": "auto",
+      "unit_of_measurement": "",
+      "friendly_name": "\uc637\ubc29 \uac10\ub3c4"
+    },
+    "last_changed": "2026-03-03T09:51:35.627737+00:00",
+    "last_reported": "2026-03-03T09:51:35.627737+00:00",
+    "last_updated": "2026-03-03T09:51:35.627737+00:00",
+    "context": {
+      "id": "01KJSHRCPBY9HVTE3AGMW3FTM4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "event.jubang_button",
+    "state": "2026-03-02T21:14:18.247+00:00",
+    "attributes": {
+      "event_types": [
+        "click",
+        "double_click",
+        "press"
+      ],
+      "event_type": "click",
+      "device_class": "button",
+      "friendly_name": "\uc8fc\ubc29 \ubc84\ud2bc"
+    },
+    "last_changed": "2026-03-03T09:51:35.813787+00:00",
+    "last_reported": "2026-03-03T09:51:35.813787+00:00",
+    "last_updated": "2026-03-03T09:51:35.813787+00:00",
+    "context": {
+      "id": "01KJSHRCW5FH162JFE9CPG5W7B",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_button_battery",
+    "state": "84.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "icon": "mdi:battery",
+      "friendly_name": "\uc8fc\ubc29 \ubc84\ud2bc \ubc30\ud130\ub9ac"
+    },
+    "last_changed": "2026-03-03T09:51:35.822944+00:00",
+    "last_reported": "2026-03-03T09:51:35.822944+00:00",
+    "last_updated": "2026-03-03T09:51:35.822944+00:00",
+    "context": {
+      "id": "01KJSHRCWEY1TTSCTT4RPG3T75",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.jubang_round_vibration",
+    "state": "off",
+    "attributes": {
+      "device_class": "occupancy",
+      "friendly_name": "\uc8fc\ubc29 \uc6d0 \uc9c4\ub3d9\uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T09:51:35.830898+00:00",
+    "last_reported": "2026-03-03T09:51:35.830898+00:00",
+    "last_updated": "2026-03-03T09:51:35.830898+00:00",
+    "context": {
+      "id": "01KJSHRCWPX9HHHEWYYBYBTGQP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.jubang_appliance_multitap",
+    "state": "off",
+    "attributes": {
+      "device_class": "outlet",
+      "friendly_name": "\uc8fc\ubc29 \ub4dc\ub77c\uc774\uae30 \ubd88"
+    },
+    "last_changed": "2026-03-03T09:51:35.838746+00:00",
+    "last_reported": "2026-03-03T09:51:35.838746+00:00",
+    "last_updated": "2026-03-03T09:51:35.838746+00:00",
+    "context": {
+      "id": "01KJSHRCWYYRGFXS9RHB1SCSNT",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.hyengwan_door",
+    "state": "off",
+    "attributes": {
+      "device_class": "door",
+      "icon": "mdi:door-closed",
+      "friendly_name": "\ud604\uad00 \ub3c4\uc5b4 \uc13c\uc11c"
+    },
+    "last_changed": "2026-03-03T09:51:35.870506+00:00",
+    "last_reported": "2026-03-03T09:51:35.870506+00:00",
+    "last_updated": "2026-03-03T09:51:35.870506+00:00",
+    "context": {
+      "id": "01KJSHRCXYRH0B8JGFVSYWHAFV",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.hyengwan_door_battery",
+    "state": "92.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "icon": "mdi:battery",
+      "friendly_name": "\ud604\uad00 \ub3c4\uc5b4\uc13c\uc11c \ubc30\ud130\ub9ac"
+    },
+    "last_changed": "2026-03-03T09:51:35.884078+00:00",
+    "last_reported": "2026-03-03T09:51:35.884078+00:00",
+    "last_updated": "2026-03-03T09:51:35.884078+00:00",
+    "context": {
+      "id": "01KJSHRCYCVWQ2TKC3QHYWSWPS",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_dryer_plug_current",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "A",
+      "device_class": "current",
+      "icon": "mdi:current-ac",
+      "friendly_name": "\uc8fc\ubc29 \ub4dc\ub77c\uc774\uae30 \ud50c\ub7ec\uadf8 \uc804\ub958"
+    },
+    "last_changed": "2026-03-03T09:51:35.913010+00:00",
+    "last_reported": "2026-03-03T09:51:35.913010+00:00",
+    "last_updated": "2026-03-03T09:51:35.913010+00:00",
+    "context": {
+      "id": "01KJSHRCZ9SZJY3D2T3X29YCT4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_dryer_plug_power",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "icon": "mdi:flash",
+      "friendly_name": "\uc8fc\ubc29 \ub4dc\ub77c\uc774\uae30 \ud50c\ub7ec\uadf8 \uc804\ub825"
+    },
+    "last_changed": "2026-03-03T09:51:35.924056+00:00",
+    "last_reported": "2026-03-03T09:51:35.924056+00:00",
+    "last_updated": "2026-03-03T09:51:35.924056+00:00",
+    "context": {
+      "id": "01KJSHRCZMPRY9PZSDEZEY5MWF",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_dryer_plug_voltage",
+    "state": "220.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "V",
+      "device_class": "voltage",
+      "icon": "mdi:sine-wave",
+      "friendly_name": "\uc8fc\ubc29 \ub4dc\ub77c\uc774\uae30 \ud50c\ub7ec\uadf8 \uc804\uc555"
+    },
+    "last_changed": "2026-03-03T09:51:35.932529+00:00",
+    "last_reported": "2026-03-03T09:51:35.932529+00:00",
+    "last_updated": "2026-03-03T09:51:35.932529+00:00",
+    "context": {
+      "id": "01KJSHRCZWFER00S0SH0S1SPHJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.jubang_dryer_plug_total_energy",
+    "state": "0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "icon": "mdi:lightning-bolt",
+      "friendly_name": "\uc8fc\ubc29 \ub4dc\ub77c\uc774\uae30 \ud50c\ub7ec\uadf8 \ucd1d \uc5d0\ub108\uc9c0"
+    },
+    "last_changed": "2026-03-03T09:51:35.939821+00:00",
+    "last_reported": "2026-03-03T09:51:35.939821+00:00",
+    "last_updated": "2026-03-03T09:51:35.939821+00:00",
+    "context": {
+      "id": "01KJSHRD033TJKKVVJXMW7347P",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.osbang_th_monitor",
+    "state": "18.6",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "\u00b0C",
+      "device_class": "temperature",
+      "icon": "mdi:thermometer",
+      "friendly_name": "\uc637\ubc29 \uc628\ub3c4"
+    },
+    "last_changed": "2026-03-03T09:51:35.964785+00:00",
+    "last_reported": "2026-03-03T09:51:35.964785+00:00",
+    "last_updated": "2026-03-03T09:51:35.964785+00:00",
+    "context": {
+      "id": "01KJSHRD0WWRW1FMSNKSDB46BB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.osbang_th_monitor_battery",
+    "state": "high",
+    "attributes": {
+      "icon": "mdi:battery-heart-variant",
+      "friendly_name": "\uc637\ubc29 \uc628\uc2b5\ub3c4\uc13c\uc11c \ubc30\ud130\ub9ac"
+    },
+    "last_changed": "2026-03-03T09:51:35.977195+00:00",
+    "last_reported": "2026-03-03T09:51:35.977195+00:00",
+    "last_updated": "2026-03-03T09:51:35.977195+00:00",
+    "context": {
+      "id": "01KJSHRD19ND05F263MD4WXRHN",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "fan.osbang_dehumidifier",
+    "state": "off",
+    "attributes": {
+      "preset_modes": null,
+      "percentage": 100,
+      "percentage_step": 50.0,
+      "preset_mode": null,
+      "friendly_name": "\uc637\ubc29 \uc81c\uc2b5\uae30",
+      "supported_features": 49
+    },
+    "last_changed": "2026-03-03T09:51:35.984199+00:00",
+    "last_reported": "2026-03-03T09:51:35.984199+00:00",
+    "last_updated": "2026-03-03T09:51:35.984199+00:00",
+    "context": {
+      "id": "01KJSHRD1G9R7P3K0V3HA254KK",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "humidifier.osbang_dehumidifier",
+    "state": "off",
+    "attributes": {
+      "min_humidity": 30,
+      "max_humidity": 80,
+      "current_humidity": 47,
+      "humidity": 50,
+      "device_class": "dehumidifier",
+      "friendly_name": "\uc637\ubc29 \uc81c\uc2b5\uae30",
+      "supported_features": 0
+    },
+    "last_changed": "2026-03-03T09:51:35.992275+00:00",
+    "last_reported": "2026-03-03T09:51:35.992275+00:00",
+    "last_updated": "2026-03-03T09:51:35.992275+00:00",
+    "context": {
+      "id": "01KJSHRD1R6PDQADSZYFSBKQ2Z",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "number.jubang_presence",
+    "state": "0.0",
+    "attributes": {
+      "min": 0.0,
+      "max": 10.0,
+      "step": 0.1,
+      "mode": "auto",
+      "unit_of_measurement": "M",
+      "friendly_name": "\uc8fc\ubc29 Closest target distance"
+    },
+    "last_changed": "2026-03-03T09:51:36.053856+00:00",
+    "last_reported": "2026-03-03T09:51:36.053856+00:00",
+    "last_updated": "2026-03-03T09:51:36.053856+00:00",
+    "context": {
+      "id": "01KJSHRD3N832SDCHM6KJ9V0MV",
+      "parent_id": null,
+      "user_id": null
+    }
+  }
+]

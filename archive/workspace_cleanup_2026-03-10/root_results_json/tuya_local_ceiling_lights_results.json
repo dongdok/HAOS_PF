@@ -1,0 +1,66 @@
+[
+  {
+    "name": "주방 천장 조명 로컬",
+    "device_id": "eb18aea49204ba56d2p7aa",
+    "host": "192.168.10.137",
+    "entry_id": "01KK0ZYEK8T49KAJ86TQATDDNM",
+    "profile": "simple_switch_timerv2",
+    "switch_entity": "switch.jubang_ceonjang_jomyeong_rokeol",
+    "verify": {
+      "on_code": 200,
+      "off_code": 200,
+      "state_after_on": "on",
+      "state_after_off": "off",
+      "pass": true
+    },
+    "ok": true
+  },
+  {
+    "name": "거실 천장 조명 로컬",
+    "device_id": "eb8bc6087a894602b34lta",
+    "host": "192.168.10.130",
+    "entry_id": "01KK0ZYNW4NNFHCEQTSTYE4K7S",
+    "profile": "simple_switch_timerv2",
+    "switch_entity": "switch.geosil_ceonjang_jomyeong_rokeol",
+    "verify": {
+      "on_code": 200,
+      "off_code": 200,
+      "state_after_on": "on",
+      "state_after_off": "off",
+      "pass": true
+    },
+    "ok": true
+  },
+  {
+    "name": "옷방 천장 조명 로컬",
+    "device_id": "ebeaabe539499a6f57gd3b",
+    "host": "192.168.10.133",
+    "entry_id": "01KK0ZYX1J321R6ZWSDX03F35A",
+    "profile": "simple_switch_timerv2",
+    "switch_entity": "switch.osbang_ceonjang_jomyeong_rokeol",
+    "verify": {
+      "on_code": 200,
+      "off_code": 200,
+      "state_after_on": "on",
+      "state_after_off": "off",
+      "pass": true
+    },
+    "ok": true
+  },
+  {
+    "name": "안방 천장 조명 로컬",
+    "device_id": "ebc2b3c045bd0fe191dm6v",
+    "host": "192.168.10.129",
+    "entry_id": "01KK0ZZ4AGQ6WF9EVTCC0KB4R2",
+    "profile": "simple_switch_timerv2",
+    "switch_entity": "switch.anbang_ceonjang_jomyeong_rokeol",
+    "verify": {
+      "on_code": 200,
+      "off_code": 200,
+      "state_after_on": "on",
+      "state_after_off": "off",
+      "pass": true
+    },
+    "ok": true
+  }
+]

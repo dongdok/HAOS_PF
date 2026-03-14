@@ -1,0 +1,12 @@
+[policy]
+manual_repeat_min_count = 6
+cancel_window_minutes = 3
+conflict_window_minutes = 2
+movement_repeat_min_count = 5
+movement_window_minutes = 4
+env_pattern_min_count = 5
+env_response_window_minutes = 10
+door_pattern_min_count = 5
+door_pattern_window_minutes = 10
+test_window_days = 7
+min_confidence_to_propose = 0.7
