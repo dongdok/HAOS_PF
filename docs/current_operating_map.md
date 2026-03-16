@@ -23,8 +23,8 @@ It reflects what is currently live in Home Assistant, not the target naming plan
 - Line light: `light.geosil_keoteun_rain_jomyeong_rokeol`
 - Line-light power switch: `switch.geosil_line_lighting_plug`
 - Presence sensor: `binary_sensor.geosil_presence`
-- TV (local Samsung integration): `media_player.geosil_tv`
-  - backup (disabled): `media_player.geosil_tv_smartthings` (`disabled_by=user`)
+- TV (SmartThings integration): `media_player.geosil_tv_smartthings`
+  - local samsungtv entity: `media_player.geosil_tv` (disabled/unused)
 
 ### 주방
 

@@ -34,8 +34,8 @@ Use this as the operational baseline for dashboards and automations.
 
 | Device | Type | Live Entity ID | Function |
 |---|---|---|---|
-| 거실 TV | Media Player | `media_player.geosil_tv` | Main TV/monitor (local Samsung integration) |
-| 거실 TV (SmartThings 백업, 비활성) | Media Player | `media_player.geosil_tv_smartthings` | Backup entity only, not used in active automations/dashboard |
+| 거실 TV | Media Player | `media_player.geosil_tv_smartthings` | Main TV/monitor (SmartThings integration) |
+| 거실 TV (로컬 samsungtv, 비활성) | Media Player | `media_player.geosil_tv` | Local entity only, not used in active automations/dashboard |
 | 거실 재실 감지 | Binary Sensor | `binary_sensor.geosil_presence` | Presence |
 | 거실 TV 조도 | Sensor | `sensor.geosil_tv_illuminance` | TV area illuminance |
 | 거실 TV 밝기 | Sensor | `sensor.geosil_tv_brightness` | TV brightness metric |
