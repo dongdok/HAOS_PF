@@ -1,7 +1,7 @@
 # HAOS_PF
 
 IoT 네트워크 엔지니어 지원용 포트폴리오 레포지토리입니다.
-이 저장소는 **실운영 HAOS 프로젝트 전체 코드**가 아니라, 채용 검토에 필요한 **설계/운영/장애대응/지표 문서만** 제공합니다.
+이 저장소는 **실운영 HAOS 프로젝트 전체 코드**가 아니라, 채용 검토에 필요한 **설계/운영/장애대응/지표 문서**와 **민감정보 제거된 공개용 YAML 샘플**을 제공합니다.
 
 ## 빠른 보기 (면접관용)
 
@@ -18,6 +18,7 @@ IoT 네트워크 엔지니어 지원용 포트폴리오 레포지토리입니다
 - `portfolio/cases/automation_case_studies.md`: 자동화 설계 사례
 - `portfolio/metrics/metrics_snapshot.md`: 수치 지표(정의 포함)
 - `portfolio/ops/public_release_checklist.md`: 공개 배포 체크리스트
+- `portfolio/samples/README.md`: 공개용 YAML 샘플 모음 (자동화 구현 스타일)
 
 ## 범위 및 보안
 

@@ -1,0 +1,35 @@
+alias: "[샘플][안정화] 중복 명령 전송 방지"
+description: "대상 상태가 이미 원하는 값이면 명령을 보내지 않아 네트워크 부하와 timeout 로그를 줄임"
+mode: restart
+trigger:
+  - platform: state
+    entity_id: binary_sensor.bathroom_presence
+    to: "on"
+    id: presence_on
+  - platform: state
+    entity_id: binary_sensor.bathroom_presence
+    to: "off"
+    id: presence_off
+action:
+  - choose:
+      - conditions:
+          - condition: trigger
+            id: presence_on
+          - condition: state
+            entity_id: switch.bathroom_ceiling_light
+            state: "off"
+        sequence:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.bathroom_ceiling_light
+
+      - conditions:
+          - condition: trigger
+            id: presence_off
+          - condition: state
+            entity_id: switch.bathroom_ceiling_light
+            state: "on"
+        sequence:
+          - service: switch.turn_off
+            target:
+              entity_id: switch.bathroom_ceiling_light

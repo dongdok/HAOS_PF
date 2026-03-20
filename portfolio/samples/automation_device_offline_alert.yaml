@@ -1,0 +1,26 @@
+alias: "[샘플][알림] 핵심 IoT 기기 오프라인 감지"
+description: "핵심 제어 장치가 일정 시간 unavailable이면 즉시 운영자에게 알림"
+mode: single
+trigger:
+  - platform: state
+    entity_id:
+      - light.bedroom_stand_light
+      - switch.bathroom_2gang_switch
+      - binary_sensor.entrance_door
+      - sensor.bedroom_temperature
+    to: "unavailable"
+    for: "00:02:00"
+condition: []
+action:
+  - service: notify.mobile_app_my_phone
+    data:
+      title: "[HAOS] 핵심 기기 오프라인"
+      message: >-
+        {{ trigger.to_state.name }} ({{ trigger.entity_id }}) 가
+        2분 이상 unavailable 상태입니다.
+  - service: logbook.log
+    data:
+      name: "운영 알림"
+      message: >-
+        오프라인 감지: {{ trigger.entity_id }}
+      entity_id: "{{ trigger.entity_id }}"

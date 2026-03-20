@@ -1,0 +1,52 @@
+alias: "[샘플][화장실] 재실 기반 조명 + 환풍"
+description: "재실 감지 시 조명 ON, 재실 해제 시 OFF. 체류가 길면 환풍 타이머 실행"
+mode: restart
+trigger:
+  - platform: state
+    entity_id: binary_sensor.bathroom_presence
+    to: "on"
+    id: presence_on
+  - platform: state
+    entity_id: binary_sensor.bathroom_presence
+    to: "off"
+    id: presence_off
+  - platform: state
+    entity_id: light.bathroom_ceiling_light
+    to: "on"
+    for: "00:03:30"
+    id: long_stay
+action:
+  - choose:
+      - conditions:
+          - condition: trigger
+            id: presence_on
+        sequence:
+          - condition: state
+            entity_id: switch.bathroom_switch_1
+            state: "off"
+          - service: switch.turn_on
+            target:
+              entity_id: switch.bathroom_switch_1
+
+      - conditions:
+          - condition: trigger
+            id: presence_off
+        sequence:
+          - condition: state
+            entity_id: switch.bathroom_switch_1
+            state: "on"
+          - service: switch.turn_off
+            target:
+              entity_id: switch.bathroom_switch_1
+
+      - conditions:
+          - condition: trigger
+            id: long_stay
+        sequence:
+          - service: switch.turn_on
+            target:
+              entity_id: switch.bathroom_vent_fan
+          - delay: "00:07:00"
+          - service: switch.turn_off
+            target:
+              entity_id: switch.bathroom_vent_fan

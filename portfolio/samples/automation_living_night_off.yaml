@@ -1,0 +1,26 @@
+alias: "[샘플][조명] 밤 시간 거실 조명 OFF"
+description: "거실 재실 해제 시, 야간(23:00~06:00) 조건에서 거실 조명 OFF"
+mode: single
+trigger:
+  - platform: state
+    entity_id: binary_sensor.living_presence
+    to: "off"
+condition:
+  - condition: time
+    after: "23:00:00"
+    before: "06:00:00"
+  - condition: state
+    entity_id: binary_sensor.kitchen_presence
+    state: "off"
+  - condition: state
+    entity_id: binary_sensor.bathroom_presence
+    state: "off"
+  - condition: state
+    entity_id: binary_sensor.dressing_room_presence
+    state: "off"
+action:
+  - service: light.turn_off
+    target:
+      entity_id:
+        - light.living_line_light
+        - light.living_stand_light
