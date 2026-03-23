@@ -1,5 +1,7 @@
 # 자동화 사례 (네트워크 운영 관점)
 
+추가 생활형 시나리오 문서: `automation_real_world_flows.md`
+
 ## 사례 A) 밤 시간 거실 조명 OFF
 
 - 입력 조건

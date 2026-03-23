@@ -8,7 +8,9 @@
 1. [프로젝트 요약](./portfolio/01_project_summary.md)
 2. [네트워크 토폴로지](./portfolio/diagrams/network_topology.md)
 3. [운영 장애 사례](./portfolio/cases/operations_incidents.md)
-4. [운영 지표 스냅샷](./portfolio/metrics/metrics_snapshot.md)
+4. [자동화 사례 요약](./portfolio/cases/automation_case_studies.md)
+5. [자동화 샘플 YAML](./portfolio/samples/README.md)
+6. [운영 지표 스냅샷](./portfolio/metrics/metrics_snapshot.md)
 
 ## 문서 구조
 
@@ -16,6 +18,7 @@
 - `portfolio/diagrams/network_topology.md`: L1/L2 구조 및 데이터 흐름
 - `portfolio/cases/operations_incidents.md`: 장애 대응 사례
 - `portfolio/cases/automation_case_studies.md`: 자동화 설계 사례
+- `portfolio/cases/automation_real_world_flows.md`: 생활 흐름 기반 자동화 예시
 - `portfolio/metrics/metrics_snapshot.md`: 수치 지표(정의 포함)
 - `portfolio/ops/public_release_checklist.md`: 공개 배포 체크리스트
 - `portfolio/samples/README.md`: 공개용 YAML 샘플 모음 (자동화 구현 스타일)

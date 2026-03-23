@@ -1,0 +1,19 @@
+alias: "[샘플][취침] 심야 오탐 방지 가드"
+description: "23:00~06:00 사이 취침 스위치가 켜진 뒤 10초 내 침대 재실이 없으면 스위치 OFF"
+mode: single
+trigger:
+  - platform: state
+    entity_id: input_boolean.bedtime_mode
+    to: "on"
+    for: "00:00:10"
+condition:
+  - condition: time
+    after: "23:00:00"
+    before: "06:00:00"
+  - condition: state
+    entity_id: binary_sensor.bed_presence
+    state: "off"
+action:
+  - service: input_boolean.turn_off
+    target:
+      entity_id: input_boolean.bedtime_mode

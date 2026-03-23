@@ -24,6 +24,12 @@
 5. `automation_return_tv_wol.yaml`
 - 복귀 시나리오에서 명시적 WOL로 TV 기동
 
+6. `automation_bedtime_false_positive_guard.yaml`
+- 심야 시간 취침 스위치 오탐(충전 시작 등) 자동 보정
+
+7. `automation_living_off_retry_guard.yaml`
+- 심야 이동 구간에서 거실 소등 누락 방지를 위한 짧은 재시도 가드
+
 ## 적용 시 주의
 
 - 실제 운영 적용 전 반드시 엔티티 ID를 본인 환경에 맞게 교체
