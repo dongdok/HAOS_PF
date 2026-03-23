@@ -20,9 +20,7 @@
 - `portfolio/cases/automation_case_studies.md`: 자동화 설계 사례
 - `portfolio/cases/automation_real_world_flows.md`: 생활 흐름 기반 자동화 예시
 - `portfolio/metrics/metrics_snapshot.md`: 수치 지표(정의 포함)
-- `portfolio/ops/public_release_checklist.md`: 공개 배포 체크리스트
 - `portfolio/samples/README.md`: 공개용 YAML 샘플 모음 (자동화 구현 스타일)
-- `portfolio/metrics/reliability_kpi.md`: 신뢰성 KPI 정의/표기 기준
 - `portfolio/cases/incident_rca_samples.md`: 장애 원인분석(RCA) 샘플
 - `portfolio/cases/integration_qa_matrix.md`: 3자 연동 QA 검증 표
 - `portfolio/cases/commissioning_runbook.md`: 시운전 점검 절차

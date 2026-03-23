@@ -1,4 +1,4 @@
-# 운영 지표 스냅샷 (과장 방지 정의 포함)
+# 운영 지표 스냅샷
 
 > 기준 시각: 2026-03-20 (Asia/Seoul)
 > 데이터 출처: Home Assistant 실운영 API(`ha_get_overview`, `ha_get_integration`, `ha_list_services`)
