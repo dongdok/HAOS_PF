@@ -8,7 +8,8 @@
 1. [프로젝트 요약](./portfolio/01_project_summary.md)
 2. [네트워크 토폴로지](./portfolio/diagrams/network_topology.md)
 3. [운영 장애 사례](./portfolio/cases/operations_incidents.md)
-4. [운영 지표 스냅샷](./portfolio/metrics/metrics_snapshot.md)
+4. [직무 요구사항 매핑](./portfolio/fit/job_requirement_mapping.md)
+5. [운영 지표 스냅샷](./portfolio/metrics/metrics_snapshot.md)
 
 ## 문서 구조
 
@@ -19,6 +20,12 @@
 - `portfolio/metrics/metrics_snapshot.md`: 수치 지표(정의 포함)
 - `portfolio/ops/public_release_checklist.md`: 공개 배포 체크리스트
 - `portfolio/samples/README.md`: 공개용 YAML 샘플 모음 (자동화 구현 스타일)
+- `portfolio/metrics/reliability_kpi.md`: 신뢰성 KPI 정의/표기 기준
+- `portfolio/cases/incident_rca_samples.md`: 장애 원인분석(RCA) 샘플
+- `portfolio/cases/integration_qa_matrix.md`: 3자 연동 QA 검증 표
+- `portfolio/cases/commissioning_runbook.md`: 시운전 점검 절차
+- `portfolio/fit/job_requirement_mapping.md`: 공고 요구사항 대비 경험 매핑
+- `portfolio/fit/revision_recommendations.md`: 채용 공고 대비 문서 보강 권장안
 
 ## 범위 및 보안
 
