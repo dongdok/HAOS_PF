@@ -1,4 +1,4 @@
-# HAOS_PF (Infrastructure & Operations Log)
+# HAOS
 
 본 저장소는 **N100 서버와 Hyper-V 가상화** 환경에서 Home Assistant를 직접 운영하며 기록한 엔지니어링 로그입니다. 약 400여 개의 스마트홈 기기를 통합 관리하며 겪은 네트워크 설계, 장애 대응, 운영 지표를 사실 중심으로 정리했습니다.
 
