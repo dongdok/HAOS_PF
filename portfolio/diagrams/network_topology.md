@@ -53,22 +53,19 @@ flowchart LR
     class GTW,MQTT,HAOS,AN highlight;
 ```
 
-## 2) 데이터 흐름
+## 2) 제어 및 데이터 흐름 (System Workflow)
 
 ```mermaid
 flowchart TB
-    T["트리거: 센서/시간/사용자"] --> A["HA Automation Engine"]
-    A --> C1["제어 경로1: MQTT/Zigbee"]
-    A --> C2["제어 경로2: LocalTuya"]
-    A --> C3["보조 경로: SmartThings"]
+    T["트리거: 센서 / 시간 / 사용자"] --> A["HA Automation Engine"]
+    A --> C["제어 경로 (Local / Cloud)"]
+    C --> D["디바이스 동작 (Actuator)"]
+    D --> E["상태 이벤트 수집 (State Change)"]
+    E --> F["데이터 분석 및 추천 엔진 (Ubuntu Node)"]
+    F --> G["대시보드 / 운영 지표 시각화"]
 
-    C1 --> D["디바이스 동작"]
-    C2 --> D
-    C3 --> D
-
-    D --> E["상태 이벤트 수집"]
-    E --> F["로그/지표/추천 엔진"]
-    F --> G["대시보드/운영 판단"]
+    %% 피드백 루프 (AIOps 핵심)
+    F -.->|"자동화 로직 제안 / 최적화 루프"| A
 ```
 
 ## 3) 아키텍처 설계 및 운영 전략
