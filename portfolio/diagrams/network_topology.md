@@ -4,22 +4,53 @@
 
 ```mermaid
 flowchart LR
-    ISP["인터넷/ISP"] --> GW["ER605 게이트웨이/VPN"]
-    GW --> LAN["내부망 (192.168.10.0/24)"]
+    subgraph External ["<b>1. 보안 및 외부 접속</b>"]
+    direction TB
+    ISP["인터넷 / ISP"]
+    TS["Tailscale (보안 VPN)"]
+    end
 
-    LAN --> HA["Home Assistant OS"]
-    LAN --> MQTT["Mosquitto (MQTT Broker)"]
-    LAN --> Z2M["Zigbee2MQTT"]
-    LAN --> TS["Tailscale (원격운영)"]
+    subgraph Infra ["<b>2. 통합 인프라 및 데이터 허브</b>"]
+    direction TB
+    GTW["ER605 게이트웨이"]
+    MQTT["MQTT 브로커 (데이터 허브)"]
+    HAOS["통합 제어 노드 (HAOS)"]
+    AN["데이터 분석 노드 (Ubuntu)"]
+    end
 
-    Z2M --> COORD["Zigbee Coordinator"]
-    COORD --> ZNET["Zigbee Mesh"]
-    ZNET --> ZDEV["Zigbee End Device/Router"]
+    subgraph Protocols ["<b>3. 통신 프로토콜 및 메시</b>"]
+    direction TB
+    Z2M["Zigbee2MQTT"]
+    COORD["SLZB Zigbee Coordinator"]
+    end
 
-    HA <-->|"로컬 상태/명령"| MQTT
-    HA <-->|"로컬 Wi-Fi 제어"| LT["LocalTuya 디바이스"]
-    HA <-->|"보조 제어 경로"| ST["SmartThings"]
-    TS --> HA
+    subgraph Devices ["<b>4. 필드 디바이스</b>"]
+    direction TB
+    Z_DEV["지그비 센서/조명/스위치"]
+    W_DEV["로컬 Wi-Fi 기기 (LocalTuya)"]
+    C_DEV["클라우드 가전 (SmartThings)"]
+    end
+
+    %% 연결 관계
+    ISP & TS --> GTW
+    GTW <--> MQTT
+
+    %% 데이터 허브 중심 연결
+    MQTT <-->|"시스템 통합 제어"| HAOS
+    MQTT <-->|"프로토콜 변환"| Z2M
+
+    %% 데이터 파이프라인
+    HAOS <-->|"API 데이터 연계"| AN
+
+    %% 물리 장치 연결
+    Z2M --> COORD --> Z_DEV
+    HAOS <-->|"로컬 Wi-Fi 제어"| W_DEV
+    HAOS <-->|"보조 경로"| C_DEV
+
+    %% 스타일링
+    classDef default fill:#ffffff,stroke:#eee,stroke-width:1px;
+    classDef highlight fill:#f3f0ff,stroke:#6c5ce7,stroke-width:2px;
+    class GTW,MQTT,HAOS,AN highlight;
 ```
 
 ## 2) 데이터 흐름
