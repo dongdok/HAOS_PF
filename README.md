@@ -11,7 +11,6 @@
 3. **[장애 대응 이력](./portfolio/cases/operations_incidents.md)**: 실제 발생한 이슈별 원인 분석 및 조치
 4. **[자동화 설계 사례](./portfolio/cases/automation_case_studies.md)**: 안정성을 고려한 논리 설계
 5. **[운영 수치 스냅샷](./portfolio/metrics/metrics_snapshot.md)**: 관리 엔티티 및 스택 통계
-6. **[공개 릴리스 체크리스트](./06_public_release_checklist.md)**: 보안 및 정합성 검증 항목
 
 ---
 
